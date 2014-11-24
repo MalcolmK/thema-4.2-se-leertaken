@@ -1,0 +1,1 @@
+The standard views are probably too technical for Martin. Write a management view. You are allowed to make reasonable assumptions. (This exercise is about writing for a non-technical person and being able to imagine the things he’s interested in.)
