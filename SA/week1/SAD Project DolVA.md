@@ -1,1 +1,0 @@
-Study the system (source code and available documentation). Write a SAD based on the template at www.rupopmaat.nl. Make sure to include UML component diagram(s), package diagram(s) and deployment diagram(s).
