@@ -31,7 +31,7 @@ Testen *hoeft* niet. Waar geen risico in zit, hoef je niet te testen. Het is een
 
 ### W-model
 
-![W-Model](assets/IMG_9105.JPG)
+![W-Model](assets/W-model.png)
 
 ### Welke aspecten
 
@@ -60,7 +60,8 @@ Bepaal per risico de impact
 - ...
 - ...
 
-![Testen op basis van risico ](assets/IMG_9107.JPG)
+![Testen op basis van risico ](assets/IMG_9106.JPG)
+![Testen op basis van risico ](assets/wat-te-testen.png)
 
 ### Testtechnieken
 
