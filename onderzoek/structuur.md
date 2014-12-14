@@ -1,3 +1,5 @@
+__Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. van Mastrigt, practicum groep 10b.__
+
 # Onderzoek Docker
 
 # Inleiding
@@ -20,6 +22,9 @@
 4. Wat is de leercurve van Docker?
 5. Voor wat voor soort bedrijven is Docker relevant?
 6. Welke bedrijven gebruiken Docker?
+
+## Onderzoeksmethode
+[ ... Definiëren onderzoeksmethode ... ]
 
 ## Randvoorwaarden
 [ ... Randvoorwaarden van onderzoek bespreken ... ]
