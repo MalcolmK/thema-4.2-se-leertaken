@@ -5,25 +5,27 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 # Inhoudsopgave
 
 # Inleiding
-	- Aanleiding (hoe zijn we op Docker gekomen).
-	- Context van onderzoek (voor school onderzoek).
-	- Wat is het probleem? Waarom Docker?
-	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.)
-	- Stakeholders noemen en bespreken wat hun interest is.
-	- Opbouw van de rest van dit verslag vermelden.
+	- Aanleiding (hoe zijn we op Docker gekomen). [Maurits]
+	- Context van onderzoek (voor school onderzoek). [Malcolm]
+	- Wat is het probleem? Waarom Docker? [Malcolm]
+	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.) [Maurits]
+	- Stakeholders noemen en bespreken wat hun interest is. [Maurits]
+	- Opbouw van de rest van dit verslag vermelden. [Maurits]
 		- Ook vermelden hoe het onderzoek is aangepakt.
 
-# Doelstelling
+# Doelstelling [Malcolm]
 `note: uitzoeken wat hier beschreven moet worden.`
 
 	- Bepalen wanneer Docker toegevoegde waarde biedt?
 
 # Literatuuronderzoek
-## Wat is Docker?
-## Waarom Docker?
+## Wat is Docker? [Malcolm]
+## Waarom Docker? [Maurits]
 	- Voordelen/nadelen
 	- Alternatieven
-## Architectuur van Docker.
+
+## Architectuur van Docker. [Maurits]
+
 ## Waar past Docker in het ontwikkelproces?
 	- Veel voorkomende problemen bij deployment.
 	- Hoe kan Docker helpen bij de problemen die zich voordoen?
