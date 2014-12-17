@@ -2,76 +2,62 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 # Onderzoek Docker
 
-# Inleiding
-
 # Inhoudsopgave
 
-# Opzet onderzoek
-## Aanleiding
-[ ... Kan ook de "probleemstelling" besproken worden ... ]
+# Inleiding
+	- Aanleiding (hoe zijn we op Docker gekomen).
+	- Context van onderzoek (voor school onderzoek).
+	- Wat is het probleem? Waarom Docker?
+	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.)
+	- Stakeholders noemen en bespreken wat hun interest is.
+	- Opbouw van de rest van dit verslag vermelden.
+		- Ook vermelden hoe het onderzoek is aangepakt.
 
-## Doelstelling
-[ ... Wat willen we met dit onderzoek bereiken? ... ]
+# Doelstelling
+`note: uitzoeken wat hier beschreven moet worden.`
 
-## Onderzoeksvragen
-1. Biedt Docker toegevoegde waarde voor een ontwikkelteam? (Centrale vraag)
-2. Waarom Docker?
+	- Bepalen wanneer Docker toegevoegde waarde biedt?
+
+# Literatuuronderzoek
+## Wat is Docker?
+## Waarom Docker?
 	- Voordelen/nadelen
 	- Alternatieven
-3. Wat is de maturity van Docker en de community er omheen?
-4. Wat is de leercurve van Docker?
-5. Voor wat voor soort bedrijven is Docker relevant?
-6. Welke bedrijven gebruiken Docker?
-
-## Onderzoeksmethode
-[ ... Definiëren onderzoeksmethode ... ]
-
-## Randvoorwaarden
-[ ... Randvoorwaarden van onderzoek bespreken ... ]
-
-# Uitwerking van de opdracht
-[ ... Inleiding van dit hoofdstuk ... ]
-
-## Biedt Docker toegevoegde waarde voor een ontwikkelteam?
-[ ... Uitleggen waarom Docker wel of geen toegevoegde waarde biedt + rationale ... ]
-
-## Waarom Docker?
-[ ... Waarom Docker gebruiken ... ]
-
-### Voordelen
-[ ... Voordelen van Docker ... ]
-
-### Nadelen
-[ ... Nadelen van Docker ... ]
-
-### Alternatieven
-[ ... Opsomming van alternatieven voor Docker, met de voor- en nadelen ... ]
-
+## Architectuur van Docker.
+## Waar past Docker in het ontwikkelproces?
+	- Veel voorkomende problemen bij deployment.
+	- Hoe kan Docker helpen bij de problemen die zich voordoen?
 ## Wat is de maturity van Docker en de community er omheen?
-[ ... Dieper ingaan op de grootte en mate van maturity van de community van Docker ... ]
-
+	- Kwaliteit product
+	- Beschikbare documentatie
+	- Ontwikkeling van community
+	- Hoeveelheid van support
 ## Wat is de leercurve van Docker?
-[ ... Is Docker moeilijk te leren? Is de leercurve steil? Valt de leercurve mee? ... ]
-
 ## Voor wat voor soort bedrijven is Docker relevant?
-[ ... Docker voor alle bedrijven interessant ... ]
-
 ## Welke bedrijven gebruiken Docker?
-[ ... Toelichten welke bedrijven Docker gebruiken ... ]
 
-## Docker in praktijk
-- Hoe hebben wij Docker opgezet?
-- Waar zijn we tegenaan gelopen?
-- Werkend model van Docker tonen
+# Testconfiguratie
+	- Testomgeving
+	- Hoe hebben wij Docker opgezet?
+		- Voorbereiding
+		- Installatie
+
+# Testresultaten
+	- Hoe verliep het?
+		- Waar zijn we tegenaan gelopen?
+		- Wat zijn de resultaten
+		- Ervaringen
+	- Werkend model van Docker tonen
 
 # Conclusie
-[ ... Voor welke bedrijven is Docker relevant in de praktijk? Voor studenten? ... ]
+	- Biedt Docker toegevoegde waarde voor een ontwikkelteam? (Beantwoorden centrale vraag)
+		- Welke bedrijven
+		- Welke context
 
 # Discussie
-[ ... Optioneel hooftstoek ... ]
-- Verbeterpunten van het onderzoek
-- Suggesties voor verder onderzoek
-- Eventuele andere onderzoeken
+	- Verbeterpunten van het onderzoek
+	- Suggesties voor verder onderzoek
+	- Eventuele andere onderzoeken
 
 # Verklarende woordenlijst
 
