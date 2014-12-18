@@ -6,7 +6,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 # Inleiding
 	- Aanleiding (hoe zijn we op Docker gekomen). [Maurits]
-	- Context van onderzoek (voor school onderzoek). [Malcolm]
+	- Context van onderzoek (voor school onderzoek). [Malcolm - done]
 	- Wat is het probleem? Waarom Docker? [Malcolm]
 	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.) [Maurits]
 	- Stakeholders noemen en bespreken wat hun interest is. [Maurits]
@@ -19,7 +19,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Bepalen wanneer Docker toegevoegde waarde biedt?
 
 # Literatuuronderzoek
-## Wat is Docker? [Malcolm]
+## Wat is Docker? [Malcolm - done]
 ## Waarom Docker? [Maurits]
 	- Voordelen/nadelen
 	- Alternatieven
