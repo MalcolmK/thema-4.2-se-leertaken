@@ -13,7 +13,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Opbouw van de rest van dit verslag vermelden. [Maurits]
 		- Ook vermelden hoe het onderzoek is aangepakt.
 
-# Doelstelling [Malcolm]
+# Doelstelling [Malcolm - done]
 `note: uitzoeken wat hier beschreven moet worden.`
 
 	- Bepalen wanneer Docker toegevoegde waarde biedt?
