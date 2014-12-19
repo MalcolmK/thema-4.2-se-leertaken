@@ -20,23 +20,27 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 # Literatuuronderzoek
 ## Wat is Docker? [Malcolm - outline done]
+
 ## Waarom Docker? [Maurits]
 	- Voordelen/nadelen
 	- Alternatieven
 
 ## Architectuur van Docker. [Maurits]
 
-## Waar past Docker in het ontwikkelproces?
+## Waar past Docker in het ontwikkelproces? [Maurits]
 	- Veel voorkomende problemen bij deployment.
 	- Hoe kan Docker helpen bij de problemen die zich voordoen?
-## Wat is de maturity van Docker en de community er omheen?
+
+## Wat is de maturity van Docker en de community er omheen? [Malcolm]
 	- Kwaliteit product
 	- Beschikbare documentatie
 	- Ontwikkeling van community
 	- Hoeveelheid van support
-## Wat is de leercurve van Docker?
-## Voor wat voor soort bedrijven is Docker relevant?
-## Welke bedrijven gebruiken Docker?
+## Wat is de leercurve van Docker? [Malcolm]
+
+## Voor wat voor soort bedrijven is Docker relevant? [Maurits]
+
+## Welke bedrijven gebruiken Docker? [Malcolm]
 
 # Testconfiguratie
 	- Testomgeving
@@ -61,6 +65,6 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Suggesties voor verder onderzoek
 	- Eventuele andere onderzoeken
 
-# Verklarende woordenlijst
+# Verklarende woordenlijst [M & M]
 
-# Bronnen
+# Bronnen [M & M]
