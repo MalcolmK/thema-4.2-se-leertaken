@@ -36,7 +36,8 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Beschikbare documentatie
 	- Ontwikkeling van community
 	- Hoeveelheid van support
-## Wat is de leercurve van Docker? [Malcolm]
+
+## Wat is de leercurve van Docker? [Malcolm - outline done]
 
 ## Voor wat voor soort bedrijven is Docker relevant? [Maurits]
 
