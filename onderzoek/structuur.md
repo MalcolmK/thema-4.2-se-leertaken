@@ -10,7 +10,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Wat is het probleem? Waarom Docker? [Malcolm - done]
 	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.) [Maurits p - done]
 	- Stakeholders noemen en bespreken wat hun interest is. [Maurits - done]
-	- Opbouw van de rest van dit verslag vermelden. [Maurits]
+	- Opbouw van de rest van dit verslag vermelden. [Maurits - done]
 		- Ook vermelden hoe het onderzoek is aangepakt.
 
 # Doelstelling [Malcolm - done]
