@@ -5,10 +5,10 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 # Inhoudsopgave
 
 # Inleiding
-	- Aanleiding (hoe zijn we op Docker gekomen). [Maurits]
+	- Aanleiding (hoe zijn we op Docker gekomen). [Maurits - done]
 	- Context van onderzoek (voor school onderzoek). [Malcolm - done]
 	- Wat is het probleem? Waarom Docker? [Malcolm - done]
-	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.) [Maurits]
+	- Waarom is het onderwerp relevant/interessant? (Betrekken voor wie het een probleem is.) [Maurits p - done]
 	- Stakeholders noemen en bespreken wat hun interest is. [Maurits]
 	- Opbouw van de rest van dit verslag vermelden. [Maurits]
 		- Ook vermelden hoe het onderzoek is aangepakt.
