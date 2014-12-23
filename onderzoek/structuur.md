@@ -40,7 +40,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 ## Voor wat voor soort bedrijven is Docker relevant? [Maurits]
 
-## Welke bedrijven gebruiken Docker? [Malcolm]
+## Welke bedrijven gebruiken Docker? [Malcolm - outline done]
 
 # Testconfiguratie
 	- Testomgeving
