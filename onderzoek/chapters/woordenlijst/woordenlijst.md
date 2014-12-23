@@ -5,9 +5,9 @@
 | ---- | ----------------- |
 | platform |  |
 | gedistribueerde applicatie | |
-| | |
-| | |
-| | |
+| continuous delivery | |
+| application lifecycle | |
+| ops engineer | |
 | | |
 | | |
 | | |
