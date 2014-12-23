@@ -5,9 +5,8 @@
 Wanneer je een scriptie voor een bedrijf schrijft zal je merken dat de wetenschappelijke relevantie vaak een stuk moeilijker is aan te tonen. Daarentegen moet het eenvoudiger zijn om het praktisch nut aan te tonen. Denk daarbij niet alleen aan het bedrijf waar je stage loopt maar denk aan bijvoorbeeld het praktisch nut voor de hele bedrijfstak.]
 
 - http://www.wired.com/2014/11/following-google-microsoft-amazon-embraces-next-big-thing-cloud-computing/
-- GoogleCloudPlatform
+- Google's interesse: https://github.com/googlecloudplatform/kubernetes, GoogleCloudPlatform
 - Until Docker, everyone was coming up with their own ways to solve this problem. But Docker wraps each piece of app into something called a container. You can change the container without changing the piece of an app. The container is smart enough to know where it (what kind of cloud server) and automatically adjust itself so all the parts of an app can float around the internet and still always work together. (http://uk.businessinsider.com/docker-a-hugely-important-startup-2014-11)
 - http://stackoverflow.com/questions/16047306/how-is-docker-io-different-from-a-normal-virtual-machine
 - http://www.techrepublic.com/article/why-docker-and-why-now/
 - https://www.youtube.com/watch?v=wW9CAH9nSLs
-
