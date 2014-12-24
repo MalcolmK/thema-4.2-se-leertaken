@@ -1,70 +1,51 @@
 # Welke bedrijven gebruiken Docker?
 
-# Uitwerking:
+Er zijn veel verschillende bedrijven die gebruik maken van Docker, waaronder een aantal bijzonder grote bedrijven. Hieronder zullen een aantal van deze bedrijven besproken worden. Er zal eerst kort aangehaald worden wat het bedrijf is en daarna zal uitgelegd worden waar zij Docker voor gebruiken. Op deze manier kan een beeld gevormd worden van hoe belangrijk Docker inmiddels voor grote bedrijven is.
 
+## Spotify
+Spotify is een streamingsservice voor muziek. Zij streamen muziek naar meer dan 40 miljoen gebruikers in wereldwijd bijna 60 landen. Op de rankinglijst van Alexa is de website van Spotify in de afgelopen 3 maanden met ruim 260 plaatsen gestegen naar 391 (d.d. 24 december 2014).
 
-#Outline:
-- Gilt: https://blog.docker.com/2014/07/dockercon-video-immutable-infrastructure-with-docker-and-ec2/
-    + Wat is Gilt?
-        * leidende webshop in Amerika
-        * Alexa ranking van 1,242
-        * Alexa ranking stijging van bijna 1,500 plaatsen in de afgelopen 3 maanden
-    + Op drukke dagen zo'n 100 productie releases
-    + Verplaatst alle software naar Docker's platform om services te isoleren
-    + Vereenvoudigen van CI
+Aan de back-end heeft Spotify meer dan 100 verschillende services draaien en maken ze gebruik van meer dan 5,000 servers voor de productie omgeving. Per *ops engineer* heeft Spotify zo'n 300 servers draaien.
 
-- Yelp: https://blog.docker.com/2014/07/dockercon-video-building-a-smarter-application-stack/
-    + Wat is Yelp?
-        * een online stadsgids met actuele informatie over allerlei verschillende soorten winkels, gebaseerd op onderbouwde meningen van een community van mensen
-        * Alexa ranking van 135
-    + Voor CI
-    + Gebruikt in testing and service management infrastructure
-    + Door isolatie van dependencies --> development cycles verkort en snelheid van testen 4x zo snel
-    + Gebruik citaat van Yelp
+Spotify heeft zijn continuous delivery process versnelt door gebruik te maken van Docker voor het draaien van tests en bij het deployment process. Volgens Spotify moeten deployments de volgende eigenschappen hebben:
 
-- Bleacher Report: http://sauceio.com/index.php/2014/12/ci-cd-with-docker-beanstalk-circleci-slack-gantree/
-    + Wat is Bleacher Report?
-        * Onderdeel van Turner Sports
-        * schrijft artikelen over honderden sportteams van over heel de wereld
-        * Alexa ranking van 298
-    + Voor volledige application lifecycle
-    + Citaat: "We've been very happy with the gains from using Docker and it has helped us with scale, speed, and *consistency*." --> Ook hier consistentie.
-    + grote Docker-verschuiving in de development wereld
+- ze moeten *repeatable* zijn;
+- ze moeten *straightforward* zijn;
+- ze moeten *fault-tolerant* zijn.
 
-- Spotify: https://blog.docker.com/2014/06/dockercon-video-docket-at-spotify-by-rohan-singh/
-    + Wat is Spotify?
-        * Webdienst die muziek streamt naar 40M+ gebruikers in bijna 60 landen wereldwijd.
-        * Alexa ranking van 391
-        * Alexa ranking afgelopen 3 maanden met ruim 260 plaatsen gestegen.
-    + 100+ verschillende backend services
-    + 5000+ productie servers
-    + 300 servers per ops engineer
-    + Versnelt continuous delivery bij gebruik van Docker voor testen en deployment
-    + Gekozen voor Docker omdat deployments volgende eigenschappen moeten hebben:
-        * repeatable
-        * straightforward
-        * fault-tolerant
+Omdat met Docker deze eigenschappen gewaarborgd kunnen worden, heeft Spotify gekozen om Docker te gebruiken voor het versnellen van het continuous delivery proces.
 
-- Baidu: http://blog.docker.com/2013/12/baidu-using-docker-for-its-paas/
-    + Wat is Baidu?
-        * No. 1 Chinese internet search provider
-        * Alexa ranking van 5 op de wereldwijde lijst
-        * Alexa ranking van 1 in China
-    + gebruikt Docker bij de development, omdat:
-        * het een generieke benadering biedt
-        * maakt support makkelijker voor:
-            - nieuwe programmeertalen
-            - nieuwe frameworks
-            - nieuwe databases
-        * kosten gereduceerd
+## Ebay
+Ebay is 's werelds grootste online marktplaats. De website van Ebay heeft op de wereldwijde ranking lijst van Alexa een plaats van 21 en op de Amerikaanse lijst een ranking van 7. Ebay gebruikt Spotify voor zijn continuous integration process voor het implementeren van een efficiënt en geautomatiseerd ontwikkeltraject.
 
-- Ebay: https://speakerdeck.com/teddziuba/docker-at-ebay
-    + Wat is Ebay?
-        * Alexa ranking van 21 op de wereldwijde lijst
-        * Alexa ranking van 7 op de USA lijst
-        * 's Werelds grootste online marktplaats
-    + Continuous integration
-    + implementeren van een efficient en geautomatiseerd ontwikkeltraject
+## Gilt
+Gilt is een leidende webshop in Amerika met meer dan 6 miljoen leden en meer dan 1,000 werknemers. Op de wereldwijde ranglijst is de website van Gilt in de afgelopen 3 maanden met bijna 1,500 plaatsen gestegen naar plaats 1,242. Op de Amerikaanse lijst staat Gilt zelfs bijna op plaats 400.
+
+Op drukke dagen loopt het aantal productie releases van Gilt op tot zo'n 100 per dag. Door het hoge aantal releases heeft Gilt besloten om het continuous integration process te vereenvoudigen. Een kleine rekensom kan ons helpen om te begrijpen waarom. Stel dat Gilt door het vereenvoudigen van het CI-process gemiddeld per release 5 minuten zou kunnen winnen. Uitgaande van 100 releases, zoals op een drukke dag, betekent dat een tijdwinst van ruim 8 uur per dag. Dat is (theoretisch gezien) een complete werkdag. Daarom heeft Gilt besloten om alle software naar Dockers platform te verplaatsen en zo de services te isoleren.
+
+## Yelp
+Yelp is een online stadsgids met actuele informatie over allerlei verschillende soorten winkels, gebaseerd op onderbouwde meningen van een community van mensen. Sommigen zullen Yelp ook kennen van Siri, een service van Apple in de vorm van een personal assistent. Yelp is een zeer populaire service, getuigd de ranking op de wereldwijde lijst van Alexa, namelijk 135.
+
+Yelp geeft zelf aan dat Docker een vitale rol speelt in de volgende generatie van Yelps test en service infrastructuur. Yelp gebruikt Docker binnen het CI-process voor het verkorten van de ontwikkel cycli. Door het isoleren van dependencies heeft Yelp deze cycli kunnen verkorten en de tijd van het testen kunnen terugbrengen tot een kwart van wat het eerst was.
+
+## Bleacher Report
+Bleacher Report is onderdeel van Turner Sports en schrijft artikelen over honderden sportteams van over heel de wereld. Het is een van de snelst groeiende bedrijven in Amerika. Op de wereldwijde ranglijst van Alexa heeft Bleacher Report een ranking van 298.
+
+Bleacher Report gebruikt Docker voor de volledige application lifecycle. Zoals zij [zelf aangeven](https://www.docker.com/resources/usecases/): "We've been very happy with the gains from using Docker and it has helped us with scale, speed, and *consistency*." Net als andere bedrijven, noemt ook Bleacher Report dat één van de voordelen van Docker consistentie is. Verder zeggen zij dat er een grote Docker-verschijving plaatsvindt in de development wereld.
+
+## Baidu
+Baidu is dé nummer 1 Chinese internet search provider. Dat getuige ook de ranglijsten van Alexa. Op de wereldwijde lijst staat Baidu op nummer 5 en op de Chinese lijst zelfs op nummer 1.
+
+Baidu gebruikt Docker bij de development, omdat het een aantal voordelen biedt. Zo zorgt Docker volgens hen voor een hele generieke benadering en maakt het daarnaast ook de support makkelijker voor:
+
+- nieuwe programmeertalen;
+- nieuwe frameworks;
+- nieuwe databases.
+
+Doordat er makkelijk geschakeld kan worden tussen programmeertalen, frameworks en databases kunnen tevens de kosten gereduceerd worden.
+
+## Conclusie
+Er zijn dus veel grote bedrijven die gebruik maken van Docker. Dit komt onder andere doordat deze grote bedrijven enorme aantallen services hebben draaien op veel verschillende servers. Door het implementeren van Docker maken zij de ontwikkeltrajecten een stabieler en betrouwbaarder.
 
 
 Onderstaand kan nog gebruikt worden als we content te kort komen:
@@ -104,5 +85,9 @@ Bronnen:
 - http://www.alexa.com/siteinfo/baidu.com#rank-panel
 - http://www.alexa.com/siteinfo/ebay.com#rank-panel
 - http://www.ebayinc.com/who_we_are/one_company
+- http://en.wikipedia.org/wiki/Spotify
+- http://en.wikipedia.org/wiki/Gilt_Groupe
+- http://en.wikipedia.org/wiki/Siri#Research_and_development
+
 
 ```

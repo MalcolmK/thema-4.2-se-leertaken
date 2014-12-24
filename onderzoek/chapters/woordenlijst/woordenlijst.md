@@ -9,6 +9,22 @@
 | application lifecycle | |
 | ops engineer | |
 | Dockerfile | |
+| Alexa/Alexa.com | |
+| ops engineer | |
+| continuous delivery | |
+| continuous integration | |
+| CI | zie continuous integration |
+| Ruby | |
+| Sinatra | |
+| application lifecycle | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
 | | |
 | | |
 | | |

@@ -16,6 +16,9 @@ Andere bijzondere feiten over de activiteiten van de community om Docker zijn op
 
 Ook de ontwikkeling van Docker staat alles behalve stil. Uit andere statistieken van Github blijkt dat er nog steeds dagelijks commits plaatsvinden in de Docker repository op Github. Een ander feit waaruit de populariteit van Docker blijkt, is dat Docker op nummer 1 staat op de lijst van open source projecten in 2014.
 
+## Conclusie
+Conclusie toevoegen!
+
 **Bij een tekort aan content kan het volgende nog gebruikt worden:**
 - Chatbox: https://botbot.me/freenode/docker/
 - Uitgebreide Docker user guide: https://docs.docker.com/userguide/
