@@ -17,14 +17,14 @@
 | Ruby | |
 | Sinatra | |
 | application lifecycle | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+| packaging tool | |
+| cloud service | |
+| workflows | |
+|  | |
+|  | |
+|  | |
+|  | |
+|  | |
+|  | |
+|  | |
+|  | |

@@ -89,5 +89,4 @@ Bronnen:
 - http://en.wikipedia.org/wiki/Gilt_Groupe
 - http://en.wikipedia.org/wiki/Siri#Research_and_development
 
-
 ```

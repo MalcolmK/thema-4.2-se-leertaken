@@ -17,7 +17,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Bepalen wanneer Docker toegevoegde waarde biedt?
 
 # Literatuuronderzoek
-## Wat is Docker? [Malcolm - outline done]
+## Wat is Docker? [Malcolm - done]
 
 ## Waarom Docker? [Maurits]
 	- Voordelen/nadelen
