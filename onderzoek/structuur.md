@@ -23,7 +23,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Voordelen/nadelen
 	- Alternatieven
 
-## Architectuur van Docker. [Maurits]
+## Architectuur van Docker. [Maurits - outline done]
 
 ## Waar past Docker in het ontwikkelproces? [Maurits]
 	- Veel voorkomende problemen bij deployment.
