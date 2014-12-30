@@ -28,10 +28,11 @@ Deze sectie beschrijft de voor- en nadelen omtrent Docker. Ook wordt er gekeken 
 - Setting up development / test environments can get more comlicated
 - Not everything benefits from being containerized, more hassle than what it's worth (because of isolation)
 - Container security (https://titanous.com/posts/docker-insecurity)
+- Networking safety (http://www.projectatomic.io/blog/2014/08/is-it-safe-a-look-at-docker-and-security-from-linuxcon/)
 
 ## Alternatieven
 - VM
-- Puppet, Chef, Vagrant, Ansible
+- Puppet, Chef, Vagrant, Ansible (werken ook samen)
 - Flockport
 - Rocket
 
