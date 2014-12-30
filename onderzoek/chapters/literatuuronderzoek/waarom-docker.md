@@ -2,7 +2,14 @@
 
 Deze sectie beschrijft de voor- en nadelen omtrent Docker. Ook wordt er gekeken naar mogelijke alternatieven.
 
+- Docker lost het probleem op van de N x N compatibiliteits nachtmerrie.
+- Heldere analogie met een schip en containers.
+- Lichtgewichte service in plaats van legacy technologies
+
 ## Voordelen
+- Lightweight
+- Encapsulated
+- Shippable
 - Easier separation of concerns, leading to:
 - potential for higher uptime
 - simpler maintenance and support management
@@ -23,6 +30,7 @@ Deze sectie beschrijft de voor- en nadelen omtrent Docker. Ook wordt er gekeken 
 - Container security (https://titanous.com/posts/docker-insecurity)
 
 ## Alternatieven
+- VM
 - Puppet, Chef, Vagrant, Ansible
 - Flockport
 - Rocket
@@ -31,6 +39,7 @@ Deze sectie beschrijft de voor- en nadelen omtrent Docker. Ook wordt er gekeken 
 
 ```
 Bronnen:
+- http://www.slideshare.net/dotCloud/why-docker
 - http://www.quora.com/What-are-the-pros-and-cons-of-running-one-process-per-Docker-container
 - http://stackoverflow.com/questions/16047306/how-is-docker-io-different-from-a-normal-virtual-machine
 - http://sathishmanohar.com/articles/docker-will-change-everything/
