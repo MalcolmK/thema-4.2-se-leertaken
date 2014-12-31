@@ -37,7 +37,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 ## Wat is de leercurve van Docker? [Malcolm - done]
 
-## Voor wat voor soort bedrijven is Docker relevant? [Maurits]
+## Voor wat voor soort bedrijven is Docker relevant? [Malcolm - done]
 
 ## Welke bedrijven gebruiken Docker? [Malcolm - done]
 
