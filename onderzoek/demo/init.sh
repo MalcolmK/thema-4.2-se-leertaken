@@ -1,30 +1,57 @@
 #!/bin/bash
 
+DOCKER_DB_NAME='db'
+DOCKER_WEB_NAME='web'
+
+docker_container_names() {
+	docker ps | awk -F'[[:space:]][[:space:]][[:space:]]*' '{print $7}'
+}
+
+docker_id_by_name() {
+	docker ps --no-trunc | grep "  $1\s*\$" | awk '{print $1}'
+}
+
 if [ "$1" = "stop" ]; then
 	# Stahp and clear
-	echo "Stopping ALL containers.."
+	echo "=> Stopping ALL containers.."
 
 	docker kill $(docker ps -a -q --no-trunc)
-	echo "Removing ALL containers.."
+	echo "=> Removing ALL containers.."
 	docker rm $(docker ps -a -q --no-trunc)
 else
 	# Run MYSQL
-	echo "Running database container.."
-	export DOCKER_DB_ID=$(docker run --name db -e MYSQL_ROOT_PASSWORD=banaan -d mysql)
+	if [ "$(docker_container_names | grep "$DOCKER_DB_NAME" | wc -l)" = "0" ]; then
+		echo "=> Running database container.."
+		DOCKER_DB_ID=$(docker run --name "$DOCKER_DB_NAME" -e MYSQL_ROOT_PASSWORD=banaan -d mysql)
+	else
+		echo "=> Database container already running."
+		DOCKER_DB_ID=$(docker_id_by_name "$DOCKER_DB_NAME")
+	fi
+
+	echo "Database container ID: $DOCKER_DB_ID"
 
 	# Run Nginx + HHVM
-	if [ "$(docker images | awk '{print $1}' | grep web | wc -l)" = "0" ]; then
+	if [ "$(docker images | awk '{print $1}' | grep 'web' | wc -l)" = "0" ]; then
 		echo "Building web image.."
 		docker build -t="web" web/
 	fi
 
-	echo "Running web container.."
-	export DOCKER_WEB_ID=$(docker run -d -p 80:80 \
-		-v $(pwd)/web/nginx:/etc/nginx/sites-enabled \
-		-v $(pwd)/web/certs:/etc/nginx/certs \
-		-v $(pwd)/web/logs:/var/log/nginx \
-		-v $(pwd)/site:/var/www/html web)
+	if [ "$(docker_container_names | grep "$DOCKER_WEB_NAME" | wc -l)" = "0" ]; then
+		echo "=> Running web container.."
+		DOCKER_WEB_ID=$(docker run --name "$DOCKER_WEB_NAME" \
+			-d -p 80:80 \
+			-v $(pwd)/web/nginx:/etc/nginx/sites-enabled \
+			-v $(pwd)/web/certs:/etc/nginx/certs \
+			-v $(pwd)/web/logs:/var/log/nginx \
+			-v $(pwd)/site:/var/www/html web)
+	else
+		echo "=> Web container already running."
+		DOCKER_WEB_ID=$(docker_id_by_name "$DOCKER_WEB_NAME")
+	fi
 
-	echo "Attaching to web container.."
+	echo "Web container ID: $DOCKER_WEB_ID"
+
+	# Attach to web container
+	echo "=> Attaching to web container.."
 	docker attach --sig-proxy=false $DOCKER_WEB_ID
 fi
