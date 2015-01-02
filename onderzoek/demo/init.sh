@@ -22,7 +22,12 @@ else
 	# Run MYSQL
 	if [ "$(docker_container_names | grep "$DOCKER_DB_NAME" | wc -l)" = "0" ]; then
 		echo "=> Running database container.."
-		DOCKER_DB_ID=$(docker run --name "$DOCKER_DB_NAME" -e MYSQL_ROOT_PASSWORD=banaan -d mysql)
+		DOCKER_DB_ID=$(docker run \
+			--name "$DOCKER_DB_NAME" \
+			-d -p 3306:3306 \
+			-e MYSQL_ROOT_PASSWORD=banaan \
+			-e MYSQL_DATABASE=laravel \
+			mysql)
 	else
 		echo "=> Database container already running."
 		DOCKER_DB_ID=$(docker_id_by_name "$DOCKER_DB_NAME")
@@ -38,12 +43,15 @@ else
 
 	if [ "$(docker_container_names | grep "$DOCKER_WEB_NAME" | wc -l)" = "0" ]; then
 		echo "=> Running web container.."
-		DOCKER_WEB_ID=$(docker run --name "$DOCKER_WEB_NAME" \
+		DOCKER_WEB_ID=$(docker run \
+			--name "$DOCKER_WEB_NAME" \
 			-d -p 80:80 \
 			-v $(pwd)/web/nginx:/etc/nginx/sites-enabled \
 			-v $(pwd)/web/certs:/etc/nginx/certs \
 			-v $(pwd)/web/logs:/var/log/nginx \
-			-v $(pwd)/site:/var/www/html web)
+			-v $(pwd)/site:/var/www/html \
+			--link db:db \
+			web)
 	else
 		echo "=> Web container already running."
 		DOCKER_WEB_ID=$(docker_id_by_name "$DOCKER_WEB_NAME")
