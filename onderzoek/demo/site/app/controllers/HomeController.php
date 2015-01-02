@@ -4,13 +4,13 @@ class HomeController extends BaseController
 {
 	function __construct()
 	{
-		$this->beforeFilter('times');
+		$this->beforeFilter('log');
 	}
 
 	function showWelcome()
 	{
-		$times = (int) DB::table('times')->count();
+		$count = (int) DB::table('requests')->count();
 
-		return View::make('hello', compact('times'));
+		return View::make('hello', compact('count'));
 	}
 }

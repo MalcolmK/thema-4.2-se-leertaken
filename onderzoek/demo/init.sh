@@ -12,12 +12,18 @@ docker_id_by_name() {
 }
 
 if [ "$1" = "stop" ]; then
-	# Stahp and clear
-	echo "=> Stopping ALL containers.."
+	CONTAINERS=$(docker ps -a -q --no-trunc)
 
-	docker kill $(docker ps -a -q --no-trunc)
-	echo "=> Removing ALL containers.."
-	docker rm $(docker ps -a -q --no-trunc)
+	if [ "$CONTAINERS" != "" ]; then
+		# Stahp and clear
+		echo "=> Stopping ALL containers.."
+		docker kill $CONTAINERS
+
+		echo "=> Removing ALL containers.."
+		docker rm $CONTAINERS
+	fi
+
+	echo "Done."
 else
 	# Run MYSQL
 	if [ "$(docker_container_names | grep "$DOCKER_DB_NAME" | wc -l)" = "0" ]; then
@@ -51,6 +57,7 @@ else
 			-v $(pwd)/web/nginx:/etc/nginx/sites-enabled \
 			-v $(pwd)/web/certs:/etc/nginx/certs \
 			-v $(pwd)/web/logs:/var/log/nginx \
+			-v $(pwd)/web/script:/var/script \
 			-v $(pwd)/site:/var/www/html \
 			--link db:db \
 			web)

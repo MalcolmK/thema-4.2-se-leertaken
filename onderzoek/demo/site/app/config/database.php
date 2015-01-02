@@ -1,5 +1,5 @@
 <?php
-var_dump(apache_getenv('DB_PORT_3306_TCP_ADDR'));exit();
+
 return array(
 
 	/*
@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => getenv('DB_PORT_3306_TCP_ADDR'),
-			'database'  => 'laravel',
+			'host'      => get_custom_env('DB_PORT_3306_TCP_ADDR'),
+			'database'  => get_custom_env('DB_ENV_MYSQL_DATABASE'),
 			'username'  => 'root',
-			'password'  => 'banaan',
+			'password'  => get_custom_env('DB_ENV_MYSQL_ROOT_PASSWORD'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

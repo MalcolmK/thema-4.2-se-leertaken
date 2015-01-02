@@ -44,7 +44,7 @@ RUN \
 	chmod +x phpunit.phar && \
 	mv phpunit.phar /usr/local/bin/phpunit
 
-# Install ssh
+# Install SSH server.
 RUN apt-get install -y openssh-server && \
     mkdir /var/run/sshd && \
     echo 'root:screencast' | chpasswd && \
@@ -54,19 +54,14 @@ RUN apt-get install -y openssh-server && \
 ENV NOTVISIBLE "in users profile"
 RUN echo "export VISIBLE=now" >> /etc/profile
 
-
-# Add script to start services.
-ADD service/start.sh /var/www/
-RUN chmod +x /var/www/start.sh
-
 # Define mountable directories.
-VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/conf.d", "/var/log/nginx", "/var/www/html"]
+VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/conf.d", "/var/log/nginx", "/var/www/html", "/var/script"]
 
 # Define working directory.
 WORKDIR /etc/nginx
 
 # Define default command.
-CMD ["/var/www/start.sh"]
+CMD ["/var/script/start.sh"]
 
 # Expose ports.
 EXPOSE 22
