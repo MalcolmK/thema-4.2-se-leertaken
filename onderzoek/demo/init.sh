@@ -11,7 +11,7 @@ docker_id_by_name() {
 	docker ps --no-trunc | grep "  $1\s*\$" | awk '{print $1}'
 }
 
-if [ "$1" = "stop" ]; then
+if [ "$1" = "clear" ]; then
 	CONTAINERS=$(docker ps -a -q --no-trunc)
 
 	if [ "$CONTAINERS" != "" ]; then
@@ -28,6 +28,9 @@ else
 	# Run MYSQL
 	if [ "$(docker_container_names | grep "$DOCKER_DB_NAME" | wc -l)" = "0" ]; then
 		echo "=> Running database container.."
+
+		rm -f web/script/.setup.lock 2> /dev/null
+
 		DOCKER_DB_ID=$(docker run \
 			--name "$DOCKER_DB_NAME" \
 			-d -p 3306:3306 \
