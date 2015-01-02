@@ -44,6 +44,17 @@ RUN \
 	chmod +x phpunit.phar && \
 	mv phpunit.phar /usr/local/bin/phpunit
 
+# Install ssh
+RUN apt-get install -y openssh-server && \
+    mkdir /var/run/sshd && \
+    echo 'root:screencast' | chpasswd && \
+    sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
+    sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
+
+ENV NOTVISIBLE "in users profile"
+RUN echo "export VISIBLE=now" >> /etc/profile
+
+
 # Add script to start services.
 ADD service/start.sh /var/www/
 RUN chmod +x /var/www/start.sh
@@ -58,5 +69,6 @@ WORKDIR /etc/nginx
 CMD ["/var/www/start.sh"]
 
 # Expose ports.
+EXPOSE 22
 EXPOSE 80
 EXPOSE 443

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+/usr/sbin/sshd -D
 service hhvm start
 service nginx start
 

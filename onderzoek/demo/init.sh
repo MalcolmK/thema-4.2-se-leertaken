@@ -36,7 +36,7 @@ else
 	echo "Database container ID: $DOCKER_DB_ID"
 
 	# Run Nginx + HHVM
-	if [ "$(docker images | awk '{print $1}' | grep 'web' | wc -l)" = "0" ]; then
+	if [ "$(docker images | awk '{print $1}' | grep '^web$' | wc -l)" = "0" ]; then
 		echo "Building web image.."
 		docker build -t="web" web/
 	fi
@@ -45,7 +45,9 @@ else
 		echo "=> Running web container.."
 		DOCKER_WEB_ID=$(docker run \
 			--name "$DOCKER_WEB_NAME" \
-			-d -p 80:80 \
+			-d \
+			-p 80:80 \
+			-p 2222:22 \
 			-v $(pwd)/web/nginx:/etc/nginx/sites-enabled \
 			-v $(pwd)/web/certs:/etc/nginx/certs \
 			-v $(pwd)/web/logs:/var/log/nginx \
