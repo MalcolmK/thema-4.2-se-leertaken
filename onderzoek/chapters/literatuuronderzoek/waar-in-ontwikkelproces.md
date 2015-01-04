@@ -8,7 +8,10 @@
 
 - Infrastructuur
 - Systeembeheerders
-- Gelijke ontwikkelomgeving (aligned environments, door zelfde base image, die gegarandeerd overal hetzelfde is)
+- Oplossing
+	- Gelijke ontwikkelomgeving (aligned environments, door zelfde base image, die gegarandeerd overal hetzelfde is)
+	- Gestandaardiseerde/uniforme aanpak
+	- Deployments
 - Schalen van applicatie
 - In productie:
 	- Grote deployments
@@ -25,6 +28,7 @@
 3. Core OS/Flannen
 4. Pipework
 5. SocketPlane
+6. Mezos
 
 
 
