@@ -20,7 +20,7 @@ De duidelijke isolatie van software binnen de containers leidt tot andere voorde
 3. Decompositie van de applicatie zorgt voor meer eenvoud in het redeneren over de dienst.
 4. De componenten communiceren enkel via opengestelde kanalen, waarmee de veiligheid wordt vergroot.
 
-Verder draait de onderliggende techniek ('LXC' [[BRON]] (https://linuxcontainers.org)) op een laag niveau, waardoor overhead laag is en Docker snel blijft. Ook biedt Docker de mogelijkheid om containers te delen via de Docker Hub. Waardoor de containers naderhand in zijn gehaal kunnen worden binnengehaald wat het, soms lange, proces van het opzetten elimineert.
+Verder draait de onderliggende techniek ('LXC' [[BRON]] (https://linuxcontainers.org)) op een laag niveau, waardoor overhead laag is en Docker snel blijft. Ook biedt Docker de mogelijkheid om images te delen via de Docker Hub. Waardoor de images naderhand in zijn gehaal kunnen worden binnengehaald, wat het (relatief lange) proces van het opzetten elimineert. Met deze images kunnen vervolgens containers worden gestart.
 
 ## Nadelen
 Het opdelen van de applicatie in verschillende componenten heeft veel voordelen, echter is deze ontwerpfilosofie wel verplicht. Indien de applicatie architectuur bestaat uit veel nauw samenwerkende componenten, wordt het opzetten en beheren van deze componenten erg complex en is Docker niet altijd de juiste oplossing. Zo heeft het weinig nut om en de gehele applicatie in een enkele container te draaien, terwijl de software ook op de daadwerkelijke server gedraaid kan worden - ervan uitgaande dat de server enkel voor de applicatie wordt gebruikt. De isolatie kan soms meer tijd en moeite kosten dan dat het uiteindelijk oplevert.
@@ -31,7 +31,7 @@ Ook draait Docker, vanwege de onderliggende techniek, alleen op Linux. Gelukkig 
 
 Tot slot zijn er, op het moment van schrijven, een aantal problemen met de veiligheid van containers. Zo kan een container met administrator rechten de bovenliggende laag overnemen [[BRON]] (http://www.projectatomic.io/blog/2014/08/is-it-safe-a-look-at-docker-and-security-from-linuxcon/). Dit kan de server zelf zijn, maar ook een andere Docker container (een container draait Linux, waarop Docker geïnstalleerd kan worden). Dit is een serieus beveiliginsprobleem, tenzij de container niet de juist rechten heeft of er een container laag omheen wordt gezet (die op zijn beurt geen admininstrator rechten heeft) indien de administrator rechten zijn vereist.
 
-Bij het binnenhalen van bestaande containers wordt de authenticiteit van de container incorrect geverifieerd [[BRON]] (https://titanous.com/posts/docker-insecurity). Hierdoor kan een aanvaller misbruik maken van mogelijke fouten in de systeemtools die Docker gebruikt.
+Bij het binnenhalen van images wordt de authenticiteit van de image incorrect geverifieerd [[BRON]] (https://titanous.com/posts/docker-insecurity). Hierdoor kan een aanvaller misbruik maken van mogelijke fouten in de systeemtools die Docker gebruikt.
 
 ## Alternatieven
 Naast Docker, en de handmatige ('traditionele') manier voor het opeztten van een server, zijn er genoeg alternatieven. In het kort, een aantal noemenswaardige alternatieven voor Docker:

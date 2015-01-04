@@ -15,5 +15,6 @@ Bronnen
 Te verwerken:
 - Docker lost het probleem op van de N x N compatibiliteits nachtmerrie.
 - Heldere analogie met een schip en containers.
-- Lichtgewichte service in plaats van legacy technologies
+- Lichtgewichte service in plaats van legacy technologies.
+- Uitleggen Dockerfile, images en containers (heeft Maurits nodig voor zijn uitleg).
 ```
