@@ -2,7 +2,7 @@
 
 Docker is in maart 2013 gelanceerd en dus nog vrij jong. Daaruit zou de conclusie getrokken kunnen worden dat Docker nog veel kinderziektes heeft en nog niet klaar is voor de 'grote' markt. Toch vertellen de cijfers in de praktijk ons iets anders. Dit onderdeel zal wat dieper ingaan op de maturity (volwassenheid, mate van gevorderdheid van ontwikkeling) van Docker en de community er omheen.
 
-Zoals in het hoofdstuk 'welke bedrijven gebruiken Docker' blijkt, zijn er veel toonaangevende bedrijven die gebruik maken van Docker. Daarin is te zien dat partijen als Yelp, Spotify en Ebay gebruik maken van Docker. Dergelijke bedrijven maken geen gebruik van een platform dat nog niet ver genoeg ontwikkeld is om gebruikt te kunnen worden. Hieruit kan dus geconcludeerd worden dat Docker die mate van maturity heeft bereikt dat het gebruikt kan worden door grote bedrijven. Uit de statistieken van Alexa blijkt ook, dat zo'n 60 á 70% van de bezoeker van Docker.com de website vanaf kantoor bezoekt.
+Zoals in het hoofdstuk 'welke bedrijven gebruiken Docker' [[LINK]] blijkt, zijn er veel toonaangevende bedrijven die gebruik maken van Docker. Daarin is te zien dat partijen als Yelp, Spotify en Ebay gebruik maken van Docker. Dergelijke bedrijven maken geen gebruik van een platform dat nog niet ver genoeg ontwikkeld is om gebruikt te kunnen worden. Hieruit kan dus geconcludeerd worden dat Docker die mate van maturity heeft bereikt dat het gebruikt kan worden door grote bedrijven. Uit de statistieken van Alexa blijkt ook, dat zo'n 60 á 70% van de bezoeker van Docker.com de website vanaf kantoor bezoekt.
 
 Andere interessante cijfers die we kunnen bekijken zijn die van Github, Stackoverflow, Alexa en Google. Zoals in onderstaande grafiek te zien is, is de populariteit van Docker enorm toegenomen, met name in het jaar 2014.
 
@@ -17,7 +17,9 @@ Andere bijzondere feiten over de activiteiten van de community om Docker zijn op
 Ook de ontwikkeling van Docker staat alles behalve stil. Uit andere statistieken van Github blijkt dat er nog steeds dagelijks commits plaatsvinden in de Docker repository op Github. Een ander feit waaruit de populariteit van Docker blijkt, is dat Docker op nummer 1 staat op de lijst van open source projecten in 2014.
 
 ## Conclusie
-Conclusie toevoegen!
+Een eerste gedachte zou kunnen zijn dat, omdat Docker nog maar 'pas' ontwikkeld is, Docker nog niet klaar is om mee te doen met de grote spelers. De cijfers spreken deze gedachte echter tegen. Docker is een populair product en wordt door grote partijen als Yelp, Spotify en Ebay gebruikt. Er kan dus geconcludeerd worden dat Docker een grote community heeft.
+
+Er wordt echter nog volop ontwikkeld en nieuwe functionaliteiten toegevoegd aan Docker. Hoewel Docker dus een grote community heeft, kan het wel nog verder ontwikkeld worden. Dit betekent echter niet dat het product te 'onvolwassen' is om te gebruiken.
 
 **Bij een tekort aan content kan het volgende nog gebruikt worden:**
 - Chatbox: https://botbot.me/freenode/docker/

@@ -29,7 +29,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 	- Veel voorkomende problemen bij deployment.
 	- Hoe kan Docker helpen bij de problemen die zich voordoen?
 
-## Wat is de maturity van Docker en de community er omheen? [Malcolm - CONCLUSIE NOG TOEVOEGEN]
+## Wat is de maturity van Docker en de community er omheen? [Malcolm - done]
 	- Kwaliteit product
 	- Beschikbare documentatie
 	- Ontwikkeling van community
