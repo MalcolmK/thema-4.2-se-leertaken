@@ -9,9 +9,9 @@ Aan de back-end heeft Spotify meer dan 100 verschillende services draaien en mak
 
 Spotify heeft zijn continuous delivery process versnelt door gebruik te maken van Docker voor het draaien van tests en bij het deployment process. Volgens Spotify moeten deployments de volgende eigenschappen hebben:
 
-- ze moeten *repeatable* zijn;
-- ze moeten *straightforward* zijn;
-- ze moeten *fault-tolerant* zijn.
+- Ze moeten *repeatable* zijn;
+- Ze moeten *straightforward* zijn;
+- Ze moeten *fault-tolerant* zijn.
 
 Omdat met Docker deze eigenschappen gewaarborgd kunnen worden, heeft Spotify gekozen om Docker te gebruiken voor het versnellen van het continuous delivery proces.
 
