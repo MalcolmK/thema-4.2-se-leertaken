@@ -9,8 +9,11 @@ Docker bestaat uit twee "onderdelen":
 Docker Engine is een lichtgewicht packaging tool die makkelijk verplaatst kan worden. Docker Hub is een cloud service die gebruikt wordt voor het delen van applicaties en automatiseren van workflows.
 
 ```
-
 Bronnen
 - https://www.docker.com/whatisdocker/
 
+Te verwerken:
+- Docker lost het probleem op van de N x N compatibiliteits nachtmerrie.
+- Heldere analogie met een schip en containers.
+- Lichtgewichte service in plaats van legacy technologies
 ```
