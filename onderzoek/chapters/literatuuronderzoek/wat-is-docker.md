@@ -8,13 +8,19 @@ Docker bestaat uit twee "onderdelen":
 
 Docker Engine is een lichtgewicht packaging tool die makkelijk verplaatst kan worden. Docker Hub is een cloud service die gebruikt wordt voor het delen van applicaties en automatiseren van workflows.
 
+Er wordt steeds meer verschillende software gebruikt op steeds meer verschillende hardware. Dit heeft geresulteerd in wat de founder van Docker (Solomon Hykes) de "Matrix of Hell" genoemd wordt:
+
+![Matrix of Hell](../../assets/the_matrix_of_hell.jpg "The Matrix of Hell")
+
+Deze complexiteit kan vergeleken worden met het transporteren van goederen. Er is een grote verscheidenheid aan afmetingen van producten die vervoert moeten worden. Hierbij kan gedacht worden aan bijvoorbeeld olievaten, kratten en auto's. Deze drie producten hebben allerlei verschillende afmetingen en bij het vervoeren dient rekening gehouden te worden met verschillende aspecten, zoals breekbaarheid en ontvlambaarheid. Deze producten kunnen vervoerd via verschillende transportmiddelen, zoals per schip, vliegtuig of vrachtwagen. In de praktijk kan dit dus voor veel compatibiliteitsproblemen zorgen.
+
+De oplossing die hiervoor bedacht is, is een standaard over de afmetingen van het product dat getransporteerd wordt: de container. Wanneer de verschillende software/libraries vergeleken worden met de producten die getransporteerd moeten worden en de verschillende hardware componenten vergeleken worden met de transportmiddelen, zien we veel overeenkomsten. Dit is waar Docker voor gebruikt kan worden. De verschillende software kunnen gedraaid worden in zogenaamde containers. Docker biedt vervolgens voor alle soorten hardware een interface om deze container te kunnen laten draaien. Hiermee is een standaard ontwikkeld die het mogelijk maakt om op iedere hardware dezelfde software te kunnen draaien zonder compatibiliteitsproblemen.
+
+Dit kan eenvoudigd bereikt worden door een Dockerfile te maken met daarin alle acties die uitgevoerd moeten worden om een image te maken. Met deze image kan vervolgens een container gemaakt worden. Hoe dit precies werkt zal wat verder uitgelegd worden in het gedeelte over de leercurve van Docker. [[LINK]]
+
+
 ```
 Bronnen
 - https://www.docker.com/whatisdocker/
-
-Te verwerken:
-- Docker lost het probleem op van de N x N compatibiliteits nachtmerrie.
-- Heldere analogie met een schip en containers.
-- Lichtgewichte service in plaats van legacy technologies.
-- Uitleggen Dockerfile, images en containers (heeft Maurits nodig voor zijn uitleg).
+- http://blog.docker.com/wp-content/uploads/2013/08/the_matrix_of_hell.jpg
 ```
