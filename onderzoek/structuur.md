@@ -19,7 +19,7 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 # Literatuuronderzoek
 ## Wat is Docker? [Malcolm - done]
 
-## Waarom Docker? [Maurits - outline done]
+## Waarom Docker? [Maurits - done]
 	- Voordelen/nadelen
 	- Alternatieven
 
