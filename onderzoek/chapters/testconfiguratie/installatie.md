@@ -1,7 +1,7 @@
 ## Installatie
 Allereerst dienst Docker te worden geïnstalleerd. Er is voor iedere OS een aparte [handleiding](https://docs.docker.com/installation/#installation) beschikbaar. Hieronder zal wat dieper ingegaan worden op [de installatie van Docker op Mac OS X](https://docs.docker.com/installation/mac/).
 
-Docker maakt gebruik van Linux specifieke kernel features en dient daarom via een virtual machine (VM) gedraaid te worden. Om dit proces simpeler te laten verlopen heeft Docker applicatie ontwikkeld die [boot2docker](https://github.com/boot2docker/boot2docker) heet. Boot2docker installeert een VM die gereed is gemaakt voor het draaien van Docker als daemon.
+Docker maakt gebruik van Linux specifieke kernel features en dient daarom via een virtuele machine (VM) gedraaid te worden. Om dit proces simpeler te laten verlopen heeft Docker applicatie ontwikkeld die [Boot2docker](https://github.com/boot2docker/boot2docker) heet. Boot2docker installeert een VM die gereed is gemaakt voor het draaien van Docker.
 
 Boot2docker kan installeerd worden via de [Docker for OS X Installer](https://github.com/boot2docker/osx-installer/releases/latest), of via [Homebrew](http://brew.sh/). Homebrew is de package manager voor OS X. Boot2docker kan als volgt geïnstalleerd worden:
 
@@ -9,7 +9,7 @@ Boot2docker kan installeerd worden via de [Docker for OS X Installer](https://gi
 $ brew install boot2docker
 ```
 
-Boot2docker maakt gebruik van de 'go' en 'docker' package en deze zullen dan ook automatisch worden geïnstalleerd door homebrew. Wanneer de installatie van boot2docker is voltooid, moet deze nog geinitialiseerd worden. Dat kan als volgt:
+Boot2docker maakt gebruik van de 'go' en 'docker' package en deze zullen dan ook automatisch worden geïnstalleerd door Homebrew. Wanneer de installatie van Boot2docker is voltooid, moet deze nog geinitialiseerd worden. Dat kan als volgt:
 
 ```
 $ boot2docker init
@@ -17,7 +17,7 @@ $ boot2docker up
 $ $(boot2docker shellinit)
 ```
 
-De eerste stap, `$ boot2docker init`, maakt een nieuwe VM. Vervolgens wordt door middel van `$ boot2docker up` de VM gestart. Het `$ $(boot2docker shellinit)` wordt gebruikt om de `DOCKER_HOST` variable te zetten in de huidige shell. Wanneer er gebruik gemaakt wordt van een andere shell zoals [fish](http://fishshell.com/), dan dient `$ $(boot2docker shellinit)` [vervangen te worden](http://stackoverflow.com/a/27529061/1453912) door `$ boot2docker shellinit | while read line; eval $line; end`.
+De eerste stap, `$ boot2docker init`, maakt een nieuwe VM. Vervolgens wordt door middel van `$ boot2docker up` de VM gestart. Het `$ $(boot2docker shellinit)` wordt gebruikt om de `DOCKER_HOST` variable te zetten in de huidige shell. Wanneer er gebruik gemaakt wordt van een andere shell zoals [Fishshell](http://fishshell.com/), dan dient `$ $(boot2docker shellinit)` [vervangen te worden](http://stackoverflow.com/a/27529061/1453912) door `$ boot2docker shellinit | while read line; eval $line; end`.
 
 Bij het starten van de VM wordt een feedback gegeven dat lijkt op het onderstaande:
 
@@ -32,7 +32,7 @@ Writing /Users/[username]/.boot2docker/certs/boot2docker-vm/key.pem
 Your environment variables are already set correctly.
 ```
 
-Vooral de laatste is belangrijk. Wanneer de environment variabelen niet goed geset zijn, wordt feedback getoond die lijkt op het onderstaande:
+Vooral de laatste is belangrijk. Wanneer de omgevingsvariabelen ('environment variables') niet goed zijn ingesteld, wordt feedback getoond die lijkt op het onderstaande:
 
 ```
 To connect the Docker client to the Docker daemon, please set:

@@ -70,7 +70,7 @@ Voor het opzetten van de softwarecomponenten kunnen de volgende stappen worden d
 	docker attach --sig-proxy=false $DOCKER_WEB_ID
 	```
 
-8. Tot slot moet het IP adres van de server worden achterhaald om de website te openen. Bij een ander besturingssysteem dan Linux wordt er gebruik gemaakt van _boot2docker_. Dit houdt in dat het IP adres van de virtuele machine moet worden gebruikt in plaats het IP adres van de container zelf. Dit kan worden gedaan met `boot2docker ip` (het van de container kan worden achterhaald met `docker inspect --format '{{ .NetworkSettings.IPAddress }}' "$DOCKER_WEB_ID"`).
+8. Tot slot moet het IP adres van de server worden achterhaald om de website te openen. Bij een ander besturingssysteem dan Linux wordt er gebruik gemaakt van _Boot2docker_. Dit houdt in dat het IP adres van de virtuele machine moet worden gebruikt in plaats het IP adres van de container zelf. Dit kan worden gedaan met `boot2docker ip` (het van de container kan worden achterhaald met `docker inspect --format '{{ .NetworkSettings.IPAddress }}' "$DOCKER_WEB_ID"`).
 
 9. Open tot slot het IP adres in een webbrowser om de website te bekijken.
 

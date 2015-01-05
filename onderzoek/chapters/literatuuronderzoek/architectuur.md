@@ -12,7 +12,7 @@ Het volgende figuur laat zien hoe Docker is opgebouwd:
 
 ![Architectuur](../../assets/architecture.png)
 
-De zogeheten 'Docker Daemon' is de centrale applicatie die in de achtergrond draait. Deze 'client-server' architectuur biedt een eindpunt alle zaken omtrent Docker worden aangestuurd. Dit stelt tools als _boot2docker_ in staat om van buitenaf te communiceren en Docker aan te sturen.
+De zogeheten 'Docker Daemon' is de centrale applicatie die in de achtergrond draait. Deze 'client-server' architectuur biedt een eindpunt alle zaken omtrent Docker worden aangestuurd. Dit stelt tools als _Boot2docker_ in staat om van buitenaf te communiceren en Docker aan te sturen.
 
 De command line tool kan op zijn beurt communiceren met dit eindpunt, om zo containers op te zetten (aan de hand van de images), te starten, te stoppen, te inspecteren etc. Verder kan deze tool images ophalen via de Docker Index. Zoals in de afbeelding te zien, gaat dit via de Docker Deamon. Tevens kunnen images worden opgeslagen in de Docker Hub.
 
