@@ -20,7 +20,7 @@
 | packaging tool | |
 | cloud service | |
 | workflows | |
-|  | |
+| daemon | |
 |  | |
 |  | |
 |  | |
