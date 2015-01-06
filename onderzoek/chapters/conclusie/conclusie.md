@@ -4,7 +4,7 @@ Zoals uit het hoofdstuk over de leercurve van Docker [[LINK]] blijkt, is het opz
 
 Uit de hoofdstukken 'welke soorten bedrijven gebruiken Docker' en 'welke soort bedrijven gebruiken Docker' blijkt dat er een onderscheid gemaakt kan worden tussen de verschillende soorten bedrijven die gebruik maken van Docker. Er zijn grofweg 3 soorten bedrijven: (1) grote bedrijven, (2) kleinere, niet IT gerelateerde, bedrijven en (3) kleinere, wel IT gerelateerde, bedrijven.
 
-Grotere bedrijven draaien vaak enorme aantallen verschillende services op verschillende servers. Voor hen is de door Solomon Hykes gebruikte term 'Matrix of Hell' goed van toepassing. Deze grote bedrijven beschikken vaak ook over de benodigde expertise voor het opzetten en juist configeren van een server. Door het implementeren van Docker maken zij de ontwikkeltrajecten stabieler en betrouwbaarder.
+Grotere bedrijven draaien vaak grote aantallen verschillende services op verschillende servers. Voor hen is de door Solomon Hykes gebruikte term 'Matrix of Hell' goed van toepassing. Deze grote bedrijven beschikken vaak ook over de benodigde expertise voor het opzetten en juist configeren van een server. Door het implementeren van Docker maken zij de ontwikkeltrajecten stabieler en betrouwbaarder.
 
 
 
