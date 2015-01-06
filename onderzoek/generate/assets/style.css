@@ -6,9 +6,30 @@ table, tr, td, th, tbody, thead, tfoot {
 	page-break-inside: avoid;
 }
 
-body {
-	font-size: 20px;
-	line-height: 2;
+/*@font-face {
+	font-family: 'Vera Mono';
+	src: url('Bitstream-Vera-Sans-Mono/VeraMono.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Vera Mono';
+	src: url('Bitstream-Vera-Sans-Mono/VeraMono-Bold.ttf') format('truetype');
+	font-style: bold;
+}
+@font-face {
+	font-family: 'Vera Mono';
+	src: url('Bitstream-Vera-Sans-Mono/VeraMono-Italic.ttf') format('truetype');
+	font-style: italic, oblique;
+}
+@font-face {
+	font-family: 'Vera Mono';
+	src: url('Bitstream-Vera-Sans-Mono/VeraMono-Bold-Italic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic, oblique;
+}*/
+
+* {
+	font: 16px normal 'Average';
+	line-height: 120%;
 	color: #333;
 }
 
@@ -17,6 +38,7 @@ chapter, cover {
 }
 
 chapter {
+	font: 16px normal 'Average';
 	page-break-after: always;
 }
 
@@ -36,12 +58,20 @@ chapter {
 cover {}
 
 	cover h1 {
-		font-size: 2em;
+		font-size: 2.4em;
 	}
 	cover h2 {
 		color: #999;
-		font-size: 1.4em;
+		font-size: 1.6em;
 	}
+	cover bottom {
+		display: block;
+		margin-top: 630px;
+	}
+		cover bottom left {
+			display: inline-block;
+			min-width: 100px;
+		}
 
 chapter.index {}
 
