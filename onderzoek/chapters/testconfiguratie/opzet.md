@@ -4,7 +4,15 @@ Doordat er met Docker software in geïsoleerde containers kan worden gedraaid, i
 
 ![Stack](../../assets/testconfiguratie-stack.png)
 
-Deze opstelling demonstreert een groot aantal aspecten omtrent Docker:
+In deze opstelling worden een groot aantal aspecten omtrent Docker gedemonstreerd:
 
-- 
-- Gebruik van bestaande images middels de Docker Index
+- De Docker command line tool;
+- Het gebruik van Boot2docker op een Unix systeem (Mac OSX);
+- Het gebruik van bestaande images en de Docker Index;
+- Een Docker image opstellen met behulp van een _Dockerfile_;
+- Het installeren van software in een container;
+- Het opzetten, (her)starten, stoppen, linken en inspecteren van containers;
+- Het toegang verkrijgen tot containers;
+- Een backup maken van de database:
+	- Uitvoer van interne gegevens;
+	- Het benaderen van applicaties ('services') binnen een container.
