@@ -24,7 +24,7 @@
 | MySQL                      = .| |
 | php                        = .| |
 | virtuele machine           = .| |
-|                            = .| |
+| community                  = .| |
 |                            = .| |
 |                            = .| |
 |                            = .| |
