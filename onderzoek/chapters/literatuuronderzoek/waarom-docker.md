@@ -1,4 +1,4 @@
-# Waarom docker?
+## Waarom docker?
 
 Deze sectie beschrijft de voor- en nadelen omtrent Docker. Ook wordt er gekeken naar mogelijke alternatieven.
 

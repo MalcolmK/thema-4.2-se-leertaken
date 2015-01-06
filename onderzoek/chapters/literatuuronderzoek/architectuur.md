@@ -1,4 +1,4 @@
-# Architectuur van Docker
+## Architectuur van Docker
 
 Voor het gebruik zijn de volgende dingen nodig:
 

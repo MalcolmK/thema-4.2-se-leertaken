@@ -1,4 +1,4 @@
-# Wat is de maturity van Docker en de community er omheen?
+## Wat is de maturity van Docker en de community er omheen?
 
 Docker is in maart 2013 gelanceerd en dus nog vrij jong. Daaruit zou de conclusie getrokken kunnen worden dat Docker nog veel kinderziektes heeft en nog niet klaar is voor de 'grote' markt. Toch vertellen de cijfers in de praktijk ons iets anders. Dit onderdeel zal wat dieper ingaan op de maturity (volwassenheid, mate van gevorderdheid van ontwikkeling) van Docker en de community er omheen.
 

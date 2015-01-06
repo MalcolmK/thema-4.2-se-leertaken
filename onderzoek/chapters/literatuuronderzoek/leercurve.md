@@ -1,4 +1,4 @@
-# Wat is de leercurve van Docker?
+## Wat is de leercurve van Docker?
 
 Het leren van Docker op zich is niet bijzonder lastig. Dat komt mede door de aanwezigheid van duidelijk documentatie. Docker beschikt over installatiehandleidingen voor onder andere Mac OS X, Ubuntu, Red Hat Enterprise Linux, Windows, CentOS en Debian. In totaal staan er 18 installatiehandleidingen op de website van Docker. Dit maakt het bijzonder eenvoudig om Docker te installeren ongeacht het besturingssysteem dat wordt gebruikt.
 

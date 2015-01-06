@@ -1,9 +1,11 @@
-# Wat is Docker?
+## Wat is Docker?
+
 Docker is een open platform waarmee gedistribueerde applicaties kunnen worden gebouwd, getransporteerd en gerunt. Eén van de kenmerken van Docker is dat applicaties snel in elkaar kunnen worden gezet. Door gebruik van Docker kan de IT-afdeling binnen een bedrijf gemakkelijk overal dezelfde omgeving en apps draaien.
 
 Docker bestaat uit twee 'onderdelen', namelijk de Docker Engine en de Docker Hub. De Docker Engine is een lichtgewicht packaging tool die makkelijk kan worden verplaatst. De Docker Hub is een cloud service die gebruikt wordt voor het delen van applicaties en automatiseren van workflows.
 
-## Hoe werkt Docker?
+### Hoe werkt Docker?
+
 Er wordt steeds meer verschillende software gebruikt, met verschillen versies en op verschillende hardware. Dit heeft geresulteerd in wat de founder van Docker (Solomon Hykes) de 'Matrix of Hell' noemt:
 
 ![Matrix of Hell](../../assets/the_matrix_of_hell.jpg "The Matrix of Hell")

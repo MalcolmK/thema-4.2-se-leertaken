@@ -1,4 +1,5 @@
 ## Installatie
+
 Allereerst dienst Docker te worden geïnstalleerd. Er is voor iedere OS een aparte [handleiding](https://docs.docker.com/installation/#installation) beschikbaar. Hieronder zal wat dieper ingegaan worden op [de installatie van Docker op Mac OS X](https://docs.docker.com/installation/mac/).
 
 Docker maakt gebruik van Linux specifieke kernel features en dient daarom via een virtuele machine (VM) gedraaid te worden. Om dit proces simpeler te laten verlopen heeft Docker applicatie ontwikkeld die [Boot2docker](https://github.com/boot2docker/boot2docker) heet. Boot2docker installeert een VM die gereed is gemaakt voor het draaien van Docker.

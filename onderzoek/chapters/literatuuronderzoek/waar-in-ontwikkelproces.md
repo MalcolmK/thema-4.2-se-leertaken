@@ -1,4 +1,4 @@
-# Waar past Docker in het ontwikkelproces?
+## Waar past Docker in het ontwikkelproces?
 
 Docker is een hulpmiddel voor systeembeheerders (ookwel 'devops' genoemd, beheerders van 'development' en 'operations') om de softwarecomponenten (delen van de infrastructuur) van een applicatie op een gestructureerde manier op te zetten en te beheren.
 

@@ -1,3 +1,3 @@
 # Literatuuronderzoek
 
-Deze sectie..
+Deze sectie beschrijft..

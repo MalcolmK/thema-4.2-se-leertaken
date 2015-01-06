@@ -1,4 +1,4 @@
-# Voor wat voor soort bedrijven is Docker relevant?
+## Voor wat voor soort bedrijven is Docker relevant?
 
 Dit hoofdstuk gaat wat dieper in op voor welke soort bedrijven Docker relevant is. Voordat een bedrijf het besluit neemt om gebruik te gaan maken van Docker, is het verstandig dat er bekeken wordt of de tijd die in Docker geïnvesteerd wordt, terugverdient kan worden. Aan de hand van de bedrijven die in dit hoofdstuk aangehaald worden samen met een aantal argumenten, moet het mogelijk zijn om te bepalen voor welke bedrijven Docker relevant is.
 
