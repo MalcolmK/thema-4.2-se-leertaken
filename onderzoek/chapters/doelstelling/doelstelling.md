@@ -1,12 +1,9 @@
 # Doelstelling
 
-Het doel van dit onderzoek is bepalen wanneer Docker toegevoegde waarde heeft, zodat personen die overwegen om gebruik te maken van Docker kunnen bepalen of voor hen de inspanningen opwegen tegen de toegevoegde waarde.
+Ondanks de toenemende populariteit van Docker is het voor bedrijven van belang om welafgewogen keuzes te maken in het kiezen van bepaalde technieken. Het inzetten van Docker brengt bepaalde complicaties met zich mee, waaronder de kennisinvestering die zal moeten worden gedaan om de infrastructuur om te zetten naar losgekoppelde softwarecomponenten.
 
-Omdat Docker steeds meer in populariteit en aandacht toeneemt, is het van belang om, voordat je met Docker aan de slag gaat, te bepalen of Docker voor jou toegevoegde waarde heeft. Docker heeft toegevoegde waarde wanneer:
+Dit onderzoek geeft inzage in de verschillende aspecten waar rekening mee gehouden kan worden bij het maken van de keuze voor Docker. Deze literatuurstudie tracht antwoord te geven op de vraag __'Wanneer biedt Docker toegevoegde waarde?'__.
 
-- de ontwikkeling van applicaties sneller verloopt;
-- de frustraties (door verschil in omgevingen) van developers afneemt;
-- er minder conflicten zijn tussen ontwikkel-, test- en productieomgeving.
 
 ```
 
