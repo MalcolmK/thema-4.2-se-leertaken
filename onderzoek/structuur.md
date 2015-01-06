@@ -2,11 +2,11 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 # Onderzoek Docker
 
-# Samenvatting [Maurits]
+# Samenvatting [Maurits - done]
 
 # Inhoudsopgave
 
-# Inleiding
+# Inleiding [done]
 	- Aanleiding (hoe zijn we op Docker gekomen). [Maurits - done]
 	- Context van onderzoek (voor school onderzoek). [Malcolm - done]
 	- Wat is het probleem? Waarom Docker? [Malcolm - done]
