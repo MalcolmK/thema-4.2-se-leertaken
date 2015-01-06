@@ -2,6 +2,8 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 # Onderzoek Docker
 
+# Samenvatting [Maurits]
+
 # Inhoudsopgave
 
 # Inleiding
@@ -41,29 +43,29 @@ __Thema 4.2 SE, Leertaak 3, Opzet structuur van onderzoek, M. Kindermans & M. va
 
 ## Welke bedrijven gebruiken Docker? [Malcolm - done]
 
-# Testconfiguratie
+# Testconfiguratie [M & M - done]
 	- Testomgeving
 	- Hoe hebben wij Docker opgezet?
 		- Voorbereiding
 		- Installatie
 
-# Testresultaten
+# Testresultaten [M & M - done]
 	- Hoe verliep het?
 		- Waar zijn we tegenaan gelopen?
 		- Wat zijn de resultaten
 		- Ervaringen
 	- Werkend model van Docker tonen
 
-# Conclusie
+# Conclusie [Malcolm - done]
 	- Biedt Docker toegevoegde waarde voor een ontwikkelteam? (Beantwoorden centrale vraag)
 		- Welke bedrijven
 		- Welke context
 
-# Discussie
+# Discussie [Maurits - done]
 	- Verbeterpunten van het onderzoek
 	- Suggesties voor verder onderzoek
 	- Eventuele andere onderzoeken
 
-# Verklarende woordenlijst [M & M]
+# Verklarende woordenlijst [Malcolm]
 
-# Bronnen [M & M]
+# Bronnen [Malcolm]
