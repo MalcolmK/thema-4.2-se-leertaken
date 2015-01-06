@@ -1,0 +1,118 @@
+/* Source: http://davidwalsh.name/reset-css */
+*{margin:0;padding:0}body{padding:15px 0 30px;font:13px arial,helvetica,sans-serif}
+h1{padding:0 0 15px}h2{padding:5px 0 0}label,select{cursor:pointer}li{line-height:15px;margin:5px 0 0}ol,ul{padding:0 0 10px 35px}p{line-height:15px;padding:0 0 10px}input,textarea{font:11px arial,helvetica,sans-serif;padding:2px}.clear{clear:both}a{color:inherit}a:link,a:visited{color:#00f;text-decoration:underline}a:active,a:hover{color:#00f;text-decoration:none}a img{border:0}
+
+table, tr, td, th, tbody, thead, tfoot {
+	page-break-inside: avoid;
+}
+
+body {
+	font-size: 20px;
+	line-height: 2;
+	color: #333;
+}
+
+chapter, cover {
+	display: block;
+}
+
+chapter {
+	page-break-after: always;
+}
+
+	chapter h1 {
+		font-size: 2em;
+	}
+	chapter h2 {
+		font-size: 1.8em;
+	}
+	chapter h3 {
+		font-size: 1.6em;
+	}
+	chapter.last {
+		page-break-after: auto;
+	}
+
+cover {}
+
+	cover h1 {
+		font-size: 2em;
+	}
+	cover h2 {
+		color: #999;
+		font-size: 1.4em;
+	}
+
+chapter.index {}
+
+	chapter.index li {
+		border-bottom: 1px dotted #ccc;
+	}
+	chapter.index li span.page-number {
+		float: right;
+	}
+
+.link-styled,
+.link-styled:link,
+.link-styled:active,
+.link-styled:hover,
+.link-styled:visited {
+	text-decoration: none;
+	color: #ec7067;
+}
+
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+
+
+
+table {
+	display: table;
+	border-spacing: 0;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+table th {
+	text-align: left;
+}
+.table {
+	border: 1px solid #ddd !important;
+}
+.table th,
+.table td {
+	padding: 8px !important;
+	line-height: 1.42857143;
+	vertical-align: top;
+}
+.table thead th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #ddd !important;
+}
+.table td {
+	border-top: 1px solid #ddd !important;
+}
+.table-striped tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+
+
+code {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0.2em 0;
+	margin: 0;
+	font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 85%;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 3px;
+	word-wrap: break-word;
+	vertical-align: middle;
+}
+code:after, code:before {
+	letter-spacing: -0.2em;
+	content: "\00a0";
+}
