@@ -1,6 +1,6 @@
 ## Aanleiding
 
-De opkomst van Docker is voor veel system administrators haast niet te missen. Na [de eerste demonstratie van Solomon Hykes](https://www.youtube.com/watch?v=wW9CAH9nSLs) in maart 2013 ontploft er een bom in de wereld van virtualisering. Veel bedrijven zien de potentie van de technologie en gaan er dan ook direct mee aan de slag.
+De opkomst van Docker is voor veel systemadministratoren haast niet te missen. Na [de eerste demonstratie van Solomon Hykes](https://www.youtube.com/watch?v=wW9CAH9nSLs) in maart 2013 ontploft er een bom in de wereld van virtualisering. Veel bedrijven zien de potentie van de technologie en gaan er dan ook direct mee aan de slag.
 
 Peperzaken heeft onlangs [een artikel](https://www.peperzaken.nl/blog/docker-cutting-edge-code-shipping/) geschreven over hun keuze om over te stappen naar Docker. In dit artikel wordt uitgelegd hoe Peperzaken een alternatief zocht om van hun problemen met het uitrollen van software af te komen en om de ontwikkelomgevingen en -workflow consistent te krijgen.
 

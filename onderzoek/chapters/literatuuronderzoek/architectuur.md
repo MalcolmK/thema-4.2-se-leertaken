@@ -2,9 +2,9 @@
 
 Voor het gebruik zijn de volgende dingen nodig:
 
-- Een computer of server met een Linux besturingssysteem (de 'host');
-- De Docker software (waarin LXC is inbegrepen);
-- Optioneel: een internet verbinding voor het gebruik van Docker Hub.
+- een computer of server met een Linux besturingssysteem (de 'host');
+- de Docker software (waarin LXC is inbegrepen);
+- optioneel: een internet verbinding voor het gebruik van Docker Hub.
 
 Het concept van Docker is vrij eenvoudig. Er draait een applicatie op de achtegrond die de images en containers beheert. Deze applicatie wordt aangestuurd met behulp van een command line tool (zie ook paragraaf Testconfiguratie [[LINK]]). Tot slot is er de Docker Index, dit is de lijst met images die wordt aangeboden door de Docker Hub. De command line tool helpt ook bij het binnenhalen van images van de Docker Hub en het opslaan van eigen gemaakte images.
 

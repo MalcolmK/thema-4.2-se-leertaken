@@ -21,6 +21,16 @@
 | cloud service | |
 | workflows | |
 | daemon | |
+| image | |
+| host | |
+| client | |
+| server | |
+| command line tool | |
+| nginx | |
+| hhvm | |
+| MySQL | |
+| php | |
+| virtuele machine | |
 |  | |
 |  | |
 |  | |
