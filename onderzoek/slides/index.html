@@ -1,85 +1,261 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=1024" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Wanneer biedt Docker toegevoegde waarde? Presentatie literatuurstudie van Malcolm Kindermans en Maurits van Mastrigt.</title>
 
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+	<link href="css/impress-demo.css" rel="stylesheet" />
+	<style type="text/css">
+		body { font-size: 1em; color: #303030; line-height: 120%; }
+		p, li { font-size: 0.8em; color: #606060; line-height: 120%; }
+		.slide { padding: 60px; }
+		h1, h2, h3, h4 { margin-bottom: 20px; }
+		h1 { font-size: 2em; color: #24b8eb; line-height: 120%; margin-bottom: 40px; }
+		h2 { font-size: 1.6em; line-height: 120%; }
+		h3 { font-size: 1.2em; color: #000; line-height: 120%; }
+		h4 { font-size: 1em; line-height: 120%; }
+		img { max-width: 100%; }
+		ul { list-style-type: circle; padding-top: 20px; }
+		li { margin: 0 0 20px 40px; }
+	</style>
 
-    <link href="css/impress-demo.css" rel="stylesheet" />
-
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 <body class="impress-not-supported">
 
 <div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
 
 <div id="impress">
 
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
-    </div>
+	<div class="step slide" data-x="0" data-y="0">
+		<h1>Wanneer biedt Docker toegevoegde waarde?</h1>
+		<h2>Presentatie literatuurstudie</h2>
+		<p><center><img src="../assets/logo-docker.png" title="Docker" width="400px" style="margin: 20px 0 40px" /></center></p>
+		<p>Door Malcolm Kindermans en Maurits van Mastrigt, 7 januari 2015.</p>
+	</div>
 
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
-    </div>
+	<div class="step slide" data-x="1000" data-y="0">
+		<h3>Welkom!</h3>
+		<h4>Inhoud:</h4>
+		<ul>
+			<li>Aanleiding</li>
+			<li>Vraagstelling</li>
+			<li>Onderzoeksmethode</li>
+			<li>Resultaat</li>
+			<li>Demonstratie</li>
+			<li>Conclusie</li>
+			<li>Eind</li>
+		</ul>
+	</div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
-    </div>
+	<div class="step slide" data-x="2000" data-y="0">
+		<h3>Aanleiding</h3>
+		<ul>
+			<li>Opkomst van Docker niet te missen voor DevOps</li>
+			<li>Presentatie Solomon Hykes, slordige demo van Docker</li>
+			<li>Veel bedrijven zien de potentie en gaan er direct mee aan de slag</li>
+			<li>Artikel van Peperzaken over hun overstap naar Docker</li>
+		</ul>
+		<p>&nbsp;</p>
+		<p>De vraag is echter: wat is Docker precies? En welk probleem lost het op?</p>
+		<p style="margin-top: 90px"><center><img src="../assets/logo-peperzaken.png" title="Peperzaken" width="400px" style="margin: 20px 0 40px" /></center></p>
+	</div>
 
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
-    </div>
+	<div class="step slide" data-x="3000" data-y="0">
+		<h3>Vraagstelling</h3>
+		<h4>Wanneer biedt Docker toegevoegde waarde?</h4>
+		<ul>
+			<li>Wat is Docker?</li>
+			<li>Waarom Docker?</li>
+			<li>Wat is de architectuur van Docker?</li>
+			<li>Waar past Docker in het ontwikkelproces?</li>
+			<li>Wat is de maturity van Docker en de community er omheen?</li>
+			<li>Wat is de leercurve van Docker?</li>
+			<li>Voor wat voor soort bedrijven is Docker relevant?</li>
+			<li>Welke bedrijven gebruiken Docker?</li>
+		</ul>
+	</div>
 
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
-    </div>
+	<div class="step slide" data-x="4000" data-y="0">
+		<h3>Onderzoeksmethode</h3>
+		<ul>
+			<li>Literatuurstudie</li>
+			<li>Kwalitatief onderzoek</li>
+			<li>Online materiaal: artikelen, blogs posts, website documentatie</li>
+			<li>Testomgeving</li>
+		</ul>
+	</div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
-    </div>
+	<div class="step slide" data-x="5000" data-y="0">
+		<h3>Resultaat</h3>
+		<p>Antwoord per deelvraag en tot slot de testomgeving.</p>
+	</div>
 
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
-    </div>
+		<div class="step slide" data-x="5000" data-y="1000">
+			<h3>Wat is Docker?</h3>
+			<ul>
+				<li>Hulpmiddel voor systeembeheerders (DevOps)</li>
+				<li>Maakt gebruik van LXC</li>
+				<li>Isolatie van softwarecomponenten met behulp van 'Docker containers'</li>
+				<li>Herhaalbaar proces door 'image' systeem</li>
+				<li>Lost de 'Matrix of Hell' op</li>
+			</ul>
+		</div>
+		<div class="step slide" data-x="5000" data-y="2000">
+			<h3>Wat is Docker?</h3>
+			<p><img src="../assets/the-matrix-from-hell.png" title="Matrix of Hell" style="margin-top: 10px"/></p>
+		</div>
+		<div class="step slide" data-x="5000" data-y="2000">
+			<h3>Wat is Docker?</h3>
+			<p><img src="../assets/eliminates-matrix-from-hell.png" title="Matrix of Hell solution" style="margin-top: 10px"/></p>
+		</div>
 
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-    </div>
+		<div class="step slide" data-x="5000" data-y="3000">
+			<h3>Waarom Docker?</h3>
+			<h4>Voordelen:</h4>
+			<ul>
+				<li>Licht en snel</li>
+				<li>Geïsoleerd en veilig</li>
+				<li>'Containers zijn verscheepbaar'</li>
+				<li>Duidelijke scheiding softwarecomponenten</li>
+				<li>Eenvoudig beheer</li>
+				<li>Makkelijk herstellen bij falen van componenten</li>
+				<li>Makkelijkere upgrades en deployments</li>
+			</ul>
+		</div>
+		<div class="step slide" data-x="5000" data-y="4000">
+			<h3>Waarom Docker?</h3>
+			<h4>Nadelen:</h4>
+			<ul>
+				<li>Alleen Linux ondersteuning</li>
+				<li>Veiligheid van Docker Index</li>
+				<li>Geen meerwaarde bij applicatie met nauw samenwerkende componenten</li>
+			</ul>
+		</div>
+		<div class="step slide" data-x="5000" data-y="5000">
+			<h3>Waarom Docker?</h3>
+			<h4>Alternatieven:</h4>
+			<ul>
+				<li>Virtuele machines: VMWare, VirtualBox</li>
+				<li>Provisioning tools: Vagrant, Puppet, Chef, Ansible</li>
+				<li>Docker, maar met andere filosofie: Flockport, Rocket, LXD (van LXC zelf)</li>
+			</ul>
+		</div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
+		<div class="step slide" data-x="5000" data-y="6000">
+			<h3>Wat is de architectuur van Docker?</h3>
+			<ul>
+				<li>Dockerfile</li>
+				<li>Image</li>
+				<li>Container</li>
+				<li>Docker Daemon</li>
+				<li>Docker Client</li>
+				<li>Docker Hub</li>
+				<li>Docker Index</li>
+			</ul>
+		</div>
 
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
+		<div class="step slide" data-x="5000" data-y="7000">
+			<h3>Waar past Docker in het ontwikkelproces?</h3>
+			<ul>
+				<li>Software infrastructuur</li>
+				<li>Trekt ontwikkelomgevingen gelijk</li>
+				<li>Problemen bij upgraden/deployment worden voorkomen</li>
+				<li>Lost problemen op:
+					<ul>
+						<li>Verschillen in ontwikkelomgeving</li>
+						<li>Verschillen in aanpak</li>
+						<li>Uitrollen van applicaties</li>
+						<li>Het schalen van de applicatie</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
-    </div>
+		<div class="step slide" data-x="5000" data-y="8000">
+			<h3>Wat is de maturity van Docker en de community er omheen?</h3>
+			<ul>
+				<li>Docker nog steeds volop in ontwikkeling</li>
+				<li>Recente lancering van eerste versie (juni 2014)</li>
+				<li>Grote community</li>
+				<li>Adoptatie door veel (grote) partijen: Google, Ebay, Yelp.</li>
+				<li>Meer dan vijfduizend topics op StackOverflow</li>
+			</ul>
+		</div>
 
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
+		<div class="step slide" data-x="5000" data-y="9000">
+			<h3>Wat is de leercurve van Docker?</h3>
+			<ul>
+				<li>Goede documentatie</li>
+				<li>Veel online hulp</li>
+				<li>Duidelijke installatiehandleidingen</li>
+				<li>Het opzetten/omzetten van applicaties kan vrij complex worden</li>
+				<li>Kennis over server beheer is een vereiste</li>
+			</ul>
+		</div>
 
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
+		<div class="step slide" data-x="5000" data-y="10000">
+			<h3>Voor wat voor soort bedrijven is Docker relevant?</h3>
+			<ul>
+				<li>Aantrekkelijk voor zowel grote, als kleine bedrijven</li>
+				<li>Niet relevant voor bedrijven die geen, of een kleine, IT afdeling hebben of dit uitbesteden</li>
+				<li>Expertise moet aanwezig zijn</li>
+				<li>Voor bedrijven die server hosting doen</li>
+			</ul>
+		</div>
+
+		<div class="step slide" data-x="5000" data-y="11000">
+			<h3>Welke bedrijven gebruiken Docker?</h3>
+			<ul>
+				<li>Google (Kubernetes)</li>
+				<li>Spotify</li>
+				<li>Ebay</li>
+				<li>Gilt</li>
+				<li>Yelp</li>
+				<li>Bleacher Report</li>
+				<li>Baidu</li>
+			</ul>
+		</div>
+
+		<div class="step slide" data-x="5000" data-y="12000">
+			<h3>De Testomgeving</h3>
+			<ul>
+				<li>Veel voorkomende opstelling: webserver en database</li>
+			</ul>
+			<p><br/><center><img src="../assets/testconfiguratie-stack.png" style="width: 80%" /><center></p>
+		</div>
+
+	<div class="step slide" data-x="6000" data-y="0">
+		<h3>Demonstratie</h3>
+		<h4>Tijd voor een demonstratie!</h4>
+	</div>
+
+	<div class="step slide" data-x="7000" data-y="0">
+		<h3>Conclusie</h3>
+		<ul>
+			<li>Docker bestaat nog niet heel lang</li>
+			<li>Docker lost de 'Matrix of Hell' op</li>
+			<li>Opzetten Docker software blijkt eenvoudig te zijn</li>
+			<li>Opzetten applicatie met behulp van Docker is lastiger</li>
+			<li>Docker is aantrekkelijk voor zowel grote, als kleine bedrijven</li>
+			<li>Weinig toegevoegde waarde bij nauw samenwerkende softwarecomponenten</li>
+		</ul>
+	</div>
+
+	<div class="step slide" data-x="8000" data-y="0">
+		<h3>Einde</h3>
+		<h4>Zijn er nog vragen?</h4>
+	</div>
+
+	<div id="overview" class="step" data-x="4000" data-y="2000" data-scale="6">
+	</div>
 
 </div>
 

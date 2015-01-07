@@ -116,7 +116,7 @@
     - Container access (docker exec)
 - Resultaat: website
 
-### Onderbouwde conclusie
+### Conclusie
 - Docker bestaat nog niet heel lang
     - Maar wel goede adoptatie
     - Wordt al veel gebruikt
