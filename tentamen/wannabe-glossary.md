@@ -96,7 +96,15 @@ Onderstaand zijn de views volgens de 4+1 shizzle terug te vinden:
 Onderstaand zijn de viewpoints volgens *Rozanski & Woods* terug te vinden:
 
 - **Context**
-    +
+    + Beschrijft relaties, afhankelijkheden en iteracties tussen het en de omgeving.
+    + *Concerns:*
+        * scope van het systeem;
+        * verantwoordelijkheden van het systeem;
+    + *Stakeholders:*
+        * alle stakeholders, maar voornamelijk de onderstaande:
+        * acquirers;
+        * gebruikers;
+        * developers.
 
 - **Functional**
     + Beschrijft de *runtime functionele elementen*, hun verantwoordelijkheden, interfaces en belangrijkste interacties.
