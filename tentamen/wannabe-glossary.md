@@ -105,7 +105,7 @@ Onderstaand zijn de views volgens de 4+1 shizzle terug te vinden:
 Onderstaand zijn de viewpoints volgens *Rozanski & Woods* terug te vinden:
 
 - **Context**
-    + Beschrijft relaties, afhankelijkheden en iteracties tussen het en de omgeving.
+    + Beschrijft relaties, afhankelijkheden en iteracties tussen het systeem en de omgeving.
     + *Concerns:*
         * scope van het systeem;
         * verantwoordelijkheden van het systeem;

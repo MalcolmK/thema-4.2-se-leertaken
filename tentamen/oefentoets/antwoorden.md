@@ -1,4 +1,4 @@
-# Antwoorden oefentoests
+# Antwoorden oefentoets
 
 ## Opgave 1
 __Beschrijf de drie verschillende typen requirements. Stel je wordt gevraagd om requirements voor een iPod op te stellen. Geef van elk type requirement twee voorbeelden.__

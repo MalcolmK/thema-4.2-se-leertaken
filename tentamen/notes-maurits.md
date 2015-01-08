@@ -6,10 +6,10 @@
 - [OK] Leren notities (gastcolleges)
 - Doornemen http://rupopmaat.nl/
 - Invullen ontbrekende kennis
-	- IEEE definitie SA
-	- RUP 4+1 viewpoints
-	- R&W viewpoints
-	- N.a.v. punten oefentoets
+	- [OK] IEEE definitie SA
+	- [OK] RUP 4+1 viewpoints
+	- [OK] R&W viewpoints
+	- [OK] N.a.v. punten oefentoets
 	- N.a.v. bekende termen
 - Maken oefentoets
 
@@ -103,7 +103,7 @@
 	- realistisch
 	- testbaar
 	- noodzakelijk
-	- heler
+	- helder
 
 ### Het V-Model
 ![V-model](assets/v-model.png)
@@ -187,7 +187,7 @@
 	- __Logical View__: Functionele structuur en gedrag van het systeem, zoals componenten, (sub)systemen en interfaces. __Layers__ op de abstractielaag (domain logic, data access etc.) en __Tiers__ op de service laag (webserver, database server etc.)
 	- __Implementation View__: Organisation of software modules: package diagrams, file structure, frameworks, programming languages, OS, database engine, middleware etc.
 	- __Deployment View__: Hardeware and network configuration. Ways of communication (protocols).
-	- __Process View__: Threads and processes, shared resources and synchronisation. Least used view.
+	- __Process View__: Threads and processes, shared resources and synchronisation. Least used view. Important for real-time applications.
 
 ### Rozanski & Woods
 - Offspring van RUP 4+1
@@ -195,14 +195,14 @@
 - Hernoemde viewpoints: Logical, Process en Physical
 - Toegevoegde viewpoints: Information en Operational
 - Viewpoints:
-	- __Functional__: RUP 4+1 Functional Viewpoint
+	- __Functional__: RUP 4+1 Logical Viewpoint
 	- __Information__: The way that the architecture stores, manipulates, manages, and distributes information: ERD, data ownership model
 	- __Concurrency__: RUP 4+1 Process Viewpoint
 
 	- __Development__: RUP 4+1 Implementation Viewpoint
 
 	- __Deployment__: RUP 4+1 Deployment Viewpoint
-	- __Operational__: How the system will be operated, administered, and supported when in produciton. Installation, monitoring, control, etc.
+	- __Operational__: How the system will be operated, administered, and supported when in production. Installation, monitoring, control, etc.
 
 ### Kwaliteitskernmerken (quality properties, QP)
 - Tot nu toe gehad over __wat__ een systeem moet doen, niet __hoe__ een systeem het moet doen
@@ -316,3 +316,30 @@
 
 - Functionele decompositie is het opdelen van het systeem in subsystemen
 - Parkinsons Law: __"Work expands so as to fill the time available for its completion."__
+
+## Overig
+
+### Testen
+- White-box: Een methodiek om de interne structuur en werking van software te testen.
+- Black-box: Het testen van de functionaliteit van software, dus enkel in- en uitvoer.
+
+### V-Model
+- Project definitie (verificatie fase):
+	- __Requirements analysis__: collect user/system requirements (inception fase)
+	- __System and design__: analyse and understand the business of the proposed system by studying user requirements (elaboration fase)
+	- __Architecture design__: high-level design, module definition and brief functionality of each module, their interface relations, dependencies, etc. (eloboration fase)
+	- __Module design__: low-level design: designed system is broken up into smaller parts so that the programmer can start coding. Database tables, dependency issues, complete input/output for modules etc. (elaboration fase)
+- Project test en integratie (validatie fase):
+	- __Unit testing__: Unit Test Plans (UTPs) zijn opgezet tijdens Module Design fase. Bugs op code of unit test niveau oplossen (white-box).
+	- __Integration testing__: Integration Test Plans (ITPs) zijn opgezet tijdens de Architectural Design fase. De integratietesten verifiëren of de unit testen uitzonderlijk kunnen worden uitgevoerd (white-box).
+	- __System testing__: System Test Plans (STPs) zijn opgezet tijdens de System Design fase. Worden uitgevoerd door business team van klant om te verzekeren dat de verwachtingen (functionele en niet-functionele eisen) worden waargemaakt. En ook de system requirements, door bijvoorbeeld stresstesten, regressietesten etc. (black-box)
+	- __User Acceptance testing__: User Acceptance Test Plans (UATPs) zijn opgezet tijdens de Requirements Analysis fase. Test pannen worden uitgevoerd door business users (eindgebruikers?), om zo met 'real-time data' te werken. Hiermee wordt verzekerd dat het systeem werkt conform de user requirements en klaar is voor gebruik. (black-box)
+
+### Attribute Driven Design (ADD)
+- Methodiek voor het maken van software die rekening houdt met de kwaliteitskenmerken
+- Stappen:
+	1. Kies een onderdeel van het systeem om te ontwerpen;
+	2. Bepaal alle architecturele significante requirements voor dit onderdeel (alle relevante kwaliteitsattributen en business goals);
+	3. Zet een architectuur op die voldoet aan deze requirements en test het ontwerp.
+- Kan alleen succesvol zijn als de functionele eisen, kwaliteitseisen en beperkingen beschikbaar zijn (elobaration fase).
+- De uitvoer is een set (of proof-of-concept) van de architecturele views en dus niet een volledig en gedetailleerde architectuur.
