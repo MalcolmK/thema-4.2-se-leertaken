@@ -12,7 +12,65 @@ Dit document is een soort van samenvatting. Het bevat gewoon een aantal belangri
 
 - **Viewpoint:** A viewpoint is a collection of patterns, templates, and conventions for constructing one type of view. It defines the stakeholders whose concerns are reflected in the viewpoint and the guidelines, principles, and objects in object-oriented development.
 
-## Viewpoints Rozanski & Woods
+## Viewpoints
+### RUP 4+1
+Onderstaand zijn de views volgens de 4+1 shizzle terug te vinden:
+
+- *Logical view*
+    + Gaat over de functionaliteiten die het systeem biedt aan de eindgebruikers.
+    + UML diagrammen die in de logical view voorkomen zijn o.a.:
+        * Class diagram;
+        * Communication diagram;
+        * Sequence diagram.
+    + Stakeholders:
+        * Analisten
+        * Designers
+
+- *Implementation/Development view*
+    + Beschrijft het systeem vanuit het oogpunt van de programmeur.
+    + Gaat over de software management.
+    + UML diagrammen die in deze view voorkomen zijn o.a.:
+        * Component diagram;
+        * Package diagram.
+    + Stakeholders:
+        * Programmeurs
+
+- *Scenarios/Use case View*
+    + Beschrijving van het systeem a.d.h.v. use cases.
+    + Beschrijft de opeenvolging van interacties tussen objecten en tussen processen.
+    + Wordt gebruikt om architecturele elementen te identificeren.
+    + Illustreren en valideren van het architecturele design.
+    + Fungeert als startpunt voor testen voor een architectureel prototype.
+    + Stakeholders:
+        * Eindgebruikers
+
+- *Process view*
+    + Beschrijft de dynamische aspecten van het systeem.
+    + Beschrijft de processen van het systeem.
+    + Beschrijft hoe de processen met elkaar communiceren.
+    + Focust op de runtime behavior.
+    + Deze view addresseert:
+        * concurrency;
+        * distributie;
+        * integratie;
+        * performance;
+        * scalability;
+    + UML diagrammen die in deze view voorkomen zijn o.a.:
+        * Activiteitendiagram.
+    + Stakeholders:
+        * System integrators
+
+- *Deployment/Physical view*
+    + Beschrijft het systeem van het standpunt van de engineer.
+    + Gaat over de topologie van de software componenten op de fysieke laag en de fysieke connecties tussen deze componenten.
+    + UML diagrammen die in deze view voorkomen zijn o.a.:
+        * Deployment diagram.
+    + Stakeholders:
+        * System engineer
+
+###Rozanski & Woods
+Onderstaand zijn de viewpoints volgens *Rozanski & Woods* terug te vinden:
+
 - *Functional*
     + Beschrijft de *runtime functionele elementen*, hun verantwoordelijkheden, interfaces en belangrijkste interacties.
     + De functionele view is de hoeksteen van de meeste AD's.
