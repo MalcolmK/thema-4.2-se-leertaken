@@ -2,7 +2,9 @@
 Dit document is een soort van samenvatting. Het bevat gewoon een aantal belangrijke dingen die ik niet terug wil hoeven zoeken in het boek.
 
 ## Definities
-- **Software Architecture:** (volgens de IEEE 42010) System fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution.
+- **Software Architecture:** (volgens de IEEE 42010) System fundamental *concepts* or *properties* of a system in its environment embodied in its *elements*, *relationships*, and in the *principles* of its design and evolution.
+
+- **Element:** Het fundamentele onderdeel waar een systeem vanuit tot stand is gekomen.
 
 - **Principle:** Een fundamentele verklaring, overtuiging, aanpak of intentie die de definitie van de architectuur begeleidt.
 
