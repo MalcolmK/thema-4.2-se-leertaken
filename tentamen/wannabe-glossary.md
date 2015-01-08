@@ -169,3 +169,21 @@ Welke artifacten?
 Wat wordt er getest?
 Waar "white-box testing"? (eerst wat is white box testing, zie ook testwerk)
 Waar "black-box testing"? (eerst wat is black box testing, zie ook testwerk)
+
+## Ezelsbruggetjes
+**Viewpoints van Rozanski & Woods**
+- ***F***riendly ***I***mmense ***C***orps ***D***iddle ***D***ark ***O***ffices
+- Functional
+- Information
+- Concurrency
+- Development
+- Deployment
+- Operational
+
+**Views van RUP 4+1**
+***L***oud ***I***ndustries ***U***ndress ***P***laid ***D***onkeys
+- Logical view
+- Implementation/Development view
+- Scenarios/Use case View
+- Process view
+- Deployment/Physical view
