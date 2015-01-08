@@ -12,7 +12,8 @@ Dit document is een soort van samenvatting. Het bevat gewoon een aantal belangri
 
 - **Viewpoint:** A viewpoint is a collection of patterns, templates, and conventions for constructing one type of view. It defines the stakeholders whose concerns are reflected in the viewpoint and the guidelines, principles, and objects in object-oriented development.
 
-## Fasen binnen RUP
+## RUP
+### Fasen van RUP
 Binnen RUP zijn er 4 verschillende fasen te onderscheiden:
 - **Inception**
     + Helder krijgen van
@@ -35,6 +36,14 @@ Binnen RUP zijn er 4 verschillende fasen te onderscheiden:
     + Deployment
     + Overdragen aan beheer
     + Afsluiting
+
+### Kenmerken van RUP
+- Iteratief en incrementeel
+- Use Case gedreven
+- Architectuur centrisch
+- Risico's worden aangevallen
+- Aanpasbaar
+- Focus op kwaliteit d.m.v. documentatie, reviews, tests en voorwerk door specialisten.
 
 ## Viewpoints
 ### RUP 4+1
