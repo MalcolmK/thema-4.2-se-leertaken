@@ -12,6 +12,30 @@ Dit document is een soort van samenvatting. Het bevat gewoon een aantal belangri
 
 - **Viewpoint:** A viewpoint is a collection of patterns, templates, and conventions for constructing one type of view. It defines the stakeholders whose concerns are reflected in the viewpoint and the guidelines, principles, and objects in object-oriented development.
 
+## Fasen binnen RUP
+Binnen RUP zijn er 4 verschillende fasen te onderscheiden:
+- Inception
+    + Helder krijgen van
+        * inhoud
+        * scope
+        * risico's
+        * globale planning
+
+- Elaboration
+    + Testen van architectuur
+    + kritische UC's uitwerken
+    + Proof-of-concepts
+
+- Construction
+    + Interatief ontwerpen, bouwen, testen
+
+- Transition
+    + Bugfixen
+    + Trainen
+    + Deployment
+    + Overdragen aan beheer
+    + Afsluiting
+
 ## Viewpoints
 ### RUP 4+1
 Onderstaand zijn de views volgens de 4+1 shizzle terug te vinden:
@@ -128,6 +152,9 @@ Onderstaand zijn de viewpoints volgens *Rozanski & Woods* terug te vinden:
 
 ## Happy flow/Happy path
 - Een happy path is een default scenario zonder uitzonderingen of error condities. Het bestaat uit het opeenvolgend uitvoeren van een aantal activiteiten wanneer alles gaat zoals gepland.
+
+## Attribute Driven Design
+Attribute Driven design is een methodologie om software architectuur te maken, waarbij rekening gehouden wordt met de quality attributes van de software. Voor de rest heb ik geen flauw idee wat ik hier mee moet.
 
 ## V-model
 ![V-Model](./assets/V-Model.png "V-Model")
