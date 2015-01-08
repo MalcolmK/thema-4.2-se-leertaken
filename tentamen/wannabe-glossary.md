@@ -172,7 +172,7 @@ Waar "black-box testing"? (eerst wat is black box testing, zie ook testwerk)
 
 ## Ezelsbruggetjes
 **Viewpoints van Rozanski & Woods**
-- ***F***riendly ***I***mmense ***C***orps ***D***iddle ***D***ark ***O***ffices
+***F***riendly ***I***mmense ***C***orps ***D***iddle ***D***ark ***O***ffices
 - Functional
 - Information
 - Concurrency
@@ -187,3 +187,11 @@ Waar "black-box testing"? (eerst wat is black box testing, zie ook testwerk)
 - Scenarios/Use case View
 - Process view
 - Deployment/Physical view
+
+**Fasen binnen RUP**
+***I***nnocent ***E***arlobes ***C***url ***T***hirsts
+
+- Inception
+- Elaboration
+- Construction
+- Transition
