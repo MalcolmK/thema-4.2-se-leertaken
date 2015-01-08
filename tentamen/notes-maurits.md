@@ -1,17 +1,19 @@
 # Notes
 
+<!--
 ## Aanpak
 - [OK] Samenvatten slides SE
 - [OK] Samenvatten slides SA
 - [OK] Leren notities (gastcolleges)
-- Doornemen http://rupopmaat.nl/
-- Invullen ontbrekende kennis
+- [OK] Doornemen http://rupopmaat.nl/
+- [OK] Invullen ontbrekende kennis
 	- [OK] IEEE definitie SA
 	- [OK] RUP 4+1 viewpoints
 	- [OK] R&W viewpoints
 	- [OK] N.a.v. punten oefentoets
-	- N.a.v. bekende termen
-- Maken oefentoets
+	- [OK] N.a.v. bekende termen
+- [OK] Maken oefentoets
+-->
 
 ## Punten oefentoets
 
@@ -47,9 +49,9 @@
 		- Vision document, Use Case Model, Glossary, Idee van oplossing en tooling, Software Development Plan (SDP)
 	- __Elaboration__: Risico's overwinnen (d.m.v. tests en proof-of-concepts).
 		- Uitgewerkte Use Cases (UCs), SAD, SDP bijgesteld, ontwikkelomgeving.
-	- __Construction__: Iteraties ontwerpen, bouwen en testen.
-		- UCs uitwekren, deelopleveringen voldoen altijd aan functionele eisen en acceptatiecriteria.
-	- __Transition__: Bugfixen, trainen, deployment, overdragen aan beheer en afsluiting.
+	- __Construction__: Iteraties ontwerpen, bouwen en testen. Schrijven handleidingen.
+		- UCs uitwerken, deelopleveringen voldoen altijd aan functionele eisen en acceptatiecriteria.
+	- __Transition__: Accordering door stakeholders. Bugfixen, trainen, deployment, overdragen aan beheer en afsluiting.
 		- Bug fixes, getrainde gebruikers en beheerders, geaccepteerd product, projectevaluatie met feedbackloop.
 
 ### Workflows
@@ -184,10 +186,14 @@
 - Kwaliteitsattributen zijn minder expliciet
 - Viewpoints:
 	- __Use-Case View__: Key scenarios that drive the discovery, design and validation of the architecture: Use Case Diagram(s) and Use Case Descriptions.
+		- Stakeholders: Stuurgroep, product owner, businessanalist, ICT architect, acceptatietester. Van ontwikkelteam: teamleider, informatieanalist en test manager.
 	- __Logical View__: Functionele structuur en gedrag van het systeem, zoals componenten, (sub)systemen en interfaces. __Layers__ op de abstractielaag (domain logic, data access etc.) en __Tiers__ op de service laag (webserver, database server etc.)
+		- Stakeholders: Product owner, beheerder. Van ontwikkelteam: informatieanalist, softwarearchitect en de toolbeheerder.
 	- __Implementation View__: Organisation of software modules: package diagrams, file structure, frameworks, programming languages, OS, database engine, middleware etc.
+		- Stakeholders: Product owner, implementatiespecialist, domeindeskundige. Van ontwikkelteam: Teamleider, programmeur, UI designer, tester, integrator e.a.
 	- __Deployment View__: Hardeware and network configuration. Ways of communication (protocols).
 	- __Process View__: Threads and processes, shared resources and synchronisation. Least used view. Important for real-time applications.
+		- Stakeholders: Stuurgroep. Van ontwikkelteam: integrator.
 
 ### Rozanski & Woods
 - Offspring van RUP 4+1
@@ -268,6 +274,8 @@
 	- Structural patterns: het toevoegen van abstractielagen
 	- Behavioural patterns: gaat over interactie en gedrag van classen
 
+
+
 ## Gastcolleges
 
 ### Testwerk
@@ -316,6 +324,8 @@
 
 - Functionele decompositie is het opdelen van het systeem in subsystemen
 - Parkinsons Law: __"Work expands so as to fill the time available for its completion."__
+
+
 
 ## Overig
 
