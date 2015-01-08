@@ -125,3 +125,20 @@ Onderstaand zijn de viewpoints volgens *Rozanski & Woods* terug te vinden:
         * beheert;
         * onderhouden.
     + Het doel van deze view is om systeembrede strategiën te identificeren die gaan over de operationele belangen van de stakeholders van het systeem en om hier oplossingen voor te vinden.
+
+## Happy flow/Happy path
+- Een happy path is een default scenario zonder uitzonderingen of error condities. Het bestaat uit het opeenvolgend uitvoeren van een aantal activiteiten wanneer alles gaat zoals gepland.
+
+## V-model
+![V-Model](./assets/V-Model.png "V-Model")
+
+- Links staan de specificaties, de requirements en het ontwerp.
+- Rechts staan de testen en de acceptatie.
+- Het V-model is afgeleid van de watervalmethode.
+- Wanneer de producten van een bepaalde fase zijn opgeleverd, worden deze als basis gebruikt voor de volgende fase.
+- Er kan niet aan de volgende fase begonnen worden voor de producten van de vorige fase zijn opgeleverd en goedgekeurd.
+
+Welke artifacten?
+Wat wordt er getest?
+Waar "white-box testing"? (eerst wat is white box testing, zie ook testwerk)
+Waar "black-box testing"? (eerst wat is black box testing, zie ook testwerk)
