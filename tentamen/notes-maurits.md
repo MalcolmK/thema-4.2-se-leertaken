@@ -3,9 +3,12 @@
 ## Aanpak
 - [OK] Samenvatten slides SE
 - [OK] Samenvatten slides SA
-- Leren notities (gastcolleges)
+- [OK] Leren notities (gastcolleges)
 - Doornemen http://rupopmaat.nl/
 - Invullen ontbrekende kennis
+	- IEEE definitie SA
+	- RUP 4+1 viewpoints
+	- R&W viewpoints
 	- N.a.v. punten oefentoets
 	- N.a.v. bekende termen
 - Maken oefentoets
@@ -141,6 +144,13 @@
 ### Requirements
 - Zijn input voor het maken van keuzes
 - Requirements <-possibilities<-  ->desires-> Architectuur <-> Ontwerp
+- Belangrijk omdat:
+	- Foute requirements zijn kostbaar
+	- Voorkomen 'feature creep'
+	- Afbakening van scope
+	- Fundament voor kosten, planning en ontwerp
+- User requirements van gebruikers
+- System requirements voor ontwikkelaars
 
 ### Stakeholders
 - Belangrijk
@@ -259,4 +269,50 @@
 	- Behavioural patterns: gaat over interactie en gedrag van classen
 
 ## Gastcolleges
-.. hier heb/maak ik waarschijnlijk geen tijd meer voor ..
+
+### Testwerk
+- Testen is het vaststellen of iets werkt conform de specificatie
+- Geeft inzicht in de kwaliteit
+- Voorkomt schade/verlaagt risico
+- Kweekt vertrouwen bij de stakeholders
+- Niveau: afweging tussen risico dat je kunt en wilt lopen
+
+### Hogeschool Arnhem Nijmegen (HAN)
+- Een pattern is: naam, probleem, oplossing
+- Gang of Four: vier auteurs
+- Extra informatie om pattern beter toepasbaar te maken:
+	 - Context
+	 - Forces
+	 - Resulting context/consequences
+	 - Related patterns
+	 - Examples
+- SA voor het beheersen van de complexiteit
+- Lehman's Law:
+	1. A program that is used, will be modified
+	2. On modification its complexity will increase, unless actively worked against this:
+		- Refactored
+		- Follow intended architecture
+
+### Rijksdienst Werkverkeer (RDW)
+- Eerst een abstract overzicht maken (schets) en aan stakeholders laten zien
+- Systemen opgedeeld in domeinen (logische scheiding)
+- Waar je niet goed in bent -> uitbesteden
+- __Enterprise architectuur is het bij elkaar brnegen van business en IT.__
+
+### Sogeti
+- Twee belangrijkste reden voor falen IT projecten:
+	1. Instabiele user requirements
+	2. Onrealistische begroting
+- Project feedback belangrijk:
+	- Data vastleggen voor analyse
+	- Leren van je fouten
+- Functiepuntanalyse (FPA): functionele methode om gebruikers functionaliteit uit te drukken in functiepunten.
+
+### CGI
+- Structuur tussen componenten vastleggen
+- Wat zijn mijn Externally Visible Properties?
+
+	"Samenhang van componenten van een systeem, hoe die op elkaar reageren en wat je er aan de buitenkant van ziet."
+
+- Functionele decompositie is het opdelen van het systeem in subsystemen
+- Parkinsons Law: __"Work expands so as to fill the time available for its completion."__
