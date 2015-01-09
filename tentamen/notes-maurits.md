@@ -47,12 +47,19 @@
 - Vier fasen:
 	- __Inception__: Inhoud, scope, risico's en globale planning helder krijgen.
 		- Vision document, Use Case Model, Glossary, Idee van oplossing en tooling, Software Development Plan (SDP)
+		- Stakeholders: Stuurgroep, product owner, businessanalist, ICT architect, acceptatietester. Van ontwikkelteam: teamleider, informatieanalist en test manager.
+
 	- __Elaboration__: Risico's overwinnen (d.m.v. tests en proof-of-concepts).
 		- Uitgewerkte Use Cases (UCs), SAD, SDP bijgesteld, ontwikkelomgeving.
+		- Stakeholders: Product owner, beheerder. Van ontwikkelteam: informatieanalist, softwarearchitect en de toolbeheerder.
+
 	- __Construction__: Iteraties ontwerpen, bouwen en testen. Schrijven handleidingen.
 		- UCs uitwerken, deelopleveringen voldoen altijd aan functionele eisen en acceptatiecriteria.
-	- __Transition__: Accordering door stakeholders. Bugfixen, trainen, deployment, overdragen aan beheer en afsluiting.
+		- Stakeholders: Product owner, implementatiespecialist, domeindeskundige. Van ontwikkelteam: Teamleider, programmeur, UI designer, tester, integrator etc.
+
+	- __Transition__: Accordering door stakeholders. Bugfixen, trainingen, deployment, overdragen aan beheer en afsluiting.
 		- Bug fixes, getrainde gebruikers en beheerders, geaccepteerd product, projectevaluatie met feedbackloop.
+		- Stakeholders: Stuurgroep. Van ontwikkelteam: integrator.
 
 ### Workflows
 - Meer dan 100 beschikbare rollen
@@ -72,7 +79,7 @@
 
 ### Voordelen
 - Meer aandacht voor architectuur (in tegenstelling tot Scrum)
-- Meer aandacht voor documentatie en overdraagbaarheidm, testen en project beheer
+- Meer aandacht voor documentatie en overdraagbaarheid, testen en project beheer
 - Haalt risico's naar voren
 
 ### Nadelen
@@ -93,7 +100,7 @@
 - Moelijk vast te stellen doordat:
 	- Een groot ICT systeem zeer complex is
 	- Verschillende groepen stakeholders met verschillende belangen
-	- Stakeholders hebben onbewuste verwachtingen
+	- Stakeholders hebben vaak onbewuste verwachtingen
 
 ### Soorten requirements
 - Functioneel: gedrag, waarneembaar voor stakeholders/gebruikers
@@ -141,7 +148,7 @@
 - Om de stakeholders op één lijn de krijgen
 - Hulpmiddel voor het oplossen van conflicten
 - Mogelijkheid om complexiteit te beheren (door het verkrijgen van overzicht)
-- Inkaderen van het ontwerp door middel van systeem brede keuzes
+- Inkaderen van het ontwerp door middel van systeembrede keuzes
 
 ### Requirements
 - Zijn input voor het maken van keuzes
@@ -177,7 +184,13 @@
 - Een view wordt vertegenwoordigd door één of meerdere modellen
 - Views maken het mogelijk om de functionele aspecten en kwaliteitseisen van een systeem te bevatten in een model
 - Een viewpoint is een patroon of generalisatie van een view (oftewel een 'template')
-- Een viewpoint beidt een model (bijv. diagrammen) waarmee en view kan worden opgesteld
+- Een viewpoint biedt een model (bijv. diagrammen) waarmee een view kan worden opgesteld
+
+### Scenario
+- Een onderdeel van een Use Case
+- Een scenario beschrijft één mogelijkheid om het doel van de Use Case te bereiken, in stappen
+- Ook de term 'flow' wordt in dit verband gebruikt
+- Een scenario beschrijft alle stappen, terwijl een flow ook een deelverzameling van stappen kan zijn
 
 ### RUP 4+1
 - Best bekende aanpak
@@ -185,19 +198,15 @@
 - Technisch geörienteerd
 - Kwaliteitsattributen zijn minder expliciet
 - Viewpoints:
-	- __Use-Case View__: Key scenarios that drive the discovery, design and validation of the architecture: Use Case Diagram(s) and Use Case Descriptions.
-		- Stakeholders: Stuurgroep, product owner, businessanalist, ICT architect, acceptatietester. Van ontwikkelteam: teamleider, informatieanalist en test manager.
+	- __Use-Case View__: Fundamentele scenario's die ten grondslag liggen aan het ontdekken, ontwerpen en de validatie van de architectuur. Door middel van Use Case Diagram(s) en Use Case Descriptions.
 	- __Logical View__: Functionele structuur en gedrag van het systeem, zoals componenten, (sub)systemen en interfaces. __Layers__ op de abstractielaag (domain logic, data access etc.) en __Tiers__ op de service laag (webserver, database server etc.)
-		- Stakeholders: Product owner, beheerder. Van ontwikkelteam: informatieanalist, softwarearchitect en de toolbeheerder.
 	- __Implementation View__: Organisation of software modules: package diagrams, file structure, frameworks, programming languages, OS, database engine, middleware etc.
-		- Stakeholders: Product owner, implementatiespecialist, domeindeskundige. Van ontwikkelteam: Teamleider, programmeur, UI designer, tester, integrator e.a.
-	- __Deployment View__: Hardeware and network configuration. Ways of communication (protocols).
+	- __Deployment View__: Hardware and network configuration. Ways of communication (protocols).
 	- __Process View__: Threads and processes, shared resources and synchronisation. Least used view. Important for real-time applications.
-		- Stakeholders: Stuurgroep. Van ontwikkelteam: integrator.
 
 ### Rozanski & Woods
 - Offspring van RUP 4+1
-- Gericht op moderne en op grote schaal gedistribueerde informatie systemen
+- Gericht op moderne en op grote schaal gedistribueerde informatiesystemen
 - Hernoemde viewpoints: Logical, Process en Physical
 - Toegevoegde viewpoints: Information en Operational
 - Viewpoints:
@@ -233,8 +242,8 @@
 ![Viewpoints and Perspectives](assets/viewpoints-and-perspectives.png)
 
 - Een vooruitzicht om views te valideren/toetsen mbt de kwaliteitskenmerken (QPs)
-- Een collectie van patterns, templates en richtlijnen om te verzekeren dat een systeem de juiste kwaliteitskenmerken (QPs) heeft
-- perspectives worden toegepast op de architectuur om te zorgen dat de kwaliteitskenmerken acceptabel zijn en om de ontwikkeling te begeleiden
+- __Een collectie van patterns, templates en richtlijnen om te verzekeren dat een systeem de juiste kwaliteitskenmerken (QPs) heeft__
+- Perspectives worden toegepast op de architectuur om te zorgen dat de kwaliteitskenmerken acceptabel zijn en om de ontwikkeling te begeleiden
 	- als het ware unit tests voor views
 - Perspective template:
 	- __desired quality__: definitie
@@ -260,19 +269,19 @@
 
 ### Het toepassen van perspectives op views
 - Welke perspectives zijn relevant?
-- Voorbeelden:
-	- Het identificeren vna gevoelig liggende resources (bijv gebruikerdata in de database)
+- Voorbeelden (security):
+	- Het identificeren van gevoelig liggende resources (bijv gebruikersdata in de database)
 	- Het identificeren van beveiliginsrisico's (diefstal van backups etc.)
 	- Een veiligheidsbeleid opstellen (backups, wat doen we bij chantage of netwerk aanvallen? etc.)
 
 ### Tactieken en patterns
 - Een architectural pattern implementeerd meerdere tactieken
-- Een architectural tactic is een vastgestelde aanpak voor het oplossen van bepaalde kwaliteitskenmerken (QPs)
+- __Een architectural tactic is een vastgestelde aanpak voor het oplossen van bepaalde kwaliteitskenmerken (QPs)__
 	- Bijvoorbeeld: dataredudantie vergroot beschikbaarheid bij hardewarefalen
 - Drie categorieeën patterns:
 	- Creational patterns: object instantiëring en het loskoppelen van afhankelijkheden
 	- Structural patterns: het toevoegen van abstractielagen
-	- Behavioural patterns: gaat over interactie en gedrag van classen
+	- Behavioural patterns: gaat over interactie en gedrag van classes
 
 
 
@@ -305,16 +314,16 @@
 - Eerst een abstract overzicht maken (schets) en aan stakeholders laten zien
 - Systemen opgedeeld in domeinen (logische scheiding)
 - Waar je niet goed in bent -> uitbesteden
-- __Enterprise architectuur is het bij elkaar brnegen van business en IT.__
+- __Enterprise architectuur is het bij elkaar brengen van business en IT.__
 
 ### Sogeti
 - Twee belangrijkste reden voor falen IT projecten:
 	1. Instabiele user requirements
-	2. Onrealistische begroting
+	2. Onrealistische begrotingen
 - Project feedback belangrijk:
 	- Data vastleggen voor analyse
 	- Leren van je fouten
-- Functiepuntanalyse (FPA): functionele methode om gebruikers functionaliteit uit te drukken in functiepunten.
+- Functiepuntanalyse (FPA): functionele methode om gebruikersfunctionaliteit uit te drukken in functiepunten.
 
 ### CGI
 - Structuur tussen componenten vastleggen
@@ -335,15 +344,23 @@
 
 ### V-Model
 - Project definitie (verificatie fase):
-	- __Requirements analysis__: collect user/system requirements (inception fase)
-	- __System and design__: analyse and understand the business of the proposed system by studying user requirements (elaboration fase)
-	- __Architecture design__: high-level design, module definition and brief functionality of each module, their interface relations, dependencies, etc. (eloboration fase)
-	- __Module design__: low-level design: designed system is broken up into smaller parts so that the programmer can start coding. Database tables, dependency issues, complete input/output for modules etc. (elaboration fase)
-- Project test en integratie (validatie fase):
-	- __Unit testing__: Unit Test Plans (UTPs) zijn opgezet tijdens Module Design fase. Bugs op code of unit test niveau oplossen (white-box).
-	- __Integration testing__: Integration Test Plans (ITPs) zijn opgezet tijdens de Architectural Design fase. De integratietesten verifiëren of de unit testen uitzonderlijk kunnen worden uitgevoerd (white-box).
-	- __System testing__: System Test Plans (STPs) zijn opgezet tijdens de System Design fase. Worden uitgevoerd door business team van klant om te verzekeren dat de verwachtingen (functionele en niet-functionele eisen) worden waargemaakt. En ook de system requirements, door bijvoorbeeld stresstesten, regressietesten etc. (black-box)
+	- __Requirements analysis__: collect user/system requirements (RUP inception fase)
+	- __System design__: analyse and understand the business of the proposed system by studying user requirements (RUP elaboration fase)
+	- __Architecture design__: high-level design, module definition and brief functionality of each module, their interface relations, dependencies, etc. (RUP eloboration fase)
+	- __Module design__: low-level design: designed system is broken up into smaller parts so that the programmer can start coding. Database tables, dependency issues, complete input/output for modules etc. (RUP elaboration fase)
+- Coding: bouw van het systeem (RUP construction fase)
+- Project test en integratie (validatie fase, RUP transition fase):
+	- __Unit testing__: Unit Test Plans (UTPs) zijn opgezet tijdens Module Design fase. Bugs op code of unit test niveau oplossen. (white-box)
+	- __Integration testing__: Integration Test Plans (ITPs) zijn opgezet tijdens de Architectural Design fase. De integratietesten verifiëren of de unit testen uitzonderlijk kunnen worden uitgevoerd. De resultaten worden gedeeld met de klant. (white-box)
+	- __System testing__: System Test Plans (STPs) zijn opgezet tijdens de System Design fase. Worden uitgevoerd door business team van de klant. (black-box)
+		- Testen van user requirements: controleren of het systeem voldoet aan de functionele en niet-functionele eisen.
+		- Testen van system requirements: controleren door middel van stresstesten, regressietesten etc.
 	- __User Acceptance testing__: User Acceptance Test Plans (UATPs) zijn opgezet tijdens de Requirements Analysis fase. Test pannen worden uitgevoerd door business users (eindgebruikers?), om zo met 'real-time data' te werken. Hiermee wordt verzekerd dat het systeem werkt conform de user requirements en klaar is voor gebruik. (black-box)
+
+### Happy flow/path
+- Uitvoeren (standaard) scenario, waarbij dingen gaan zoals gepland
+- Zonder uitzonderingen of fouten
+- Gevaar: edge-cases worden niet gevonden/getest
 
 ### Attribute Driven Design (ADD)
 - Methodiek voor het maken van software die rekening houdt met de kwaliteitskenmerken
