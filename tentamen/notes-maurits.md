@@ -255,7 +255,7 @@
 - De initiele set:
 	- __Performance and scalability__
 		- Concerns: responsetijd, doorvoersnelheden, voorspelbaarheid van het systeem
-		- Tactieken: optimaliseren van herhaalde processen, distributie van [processen, het minimaliseren van gedeelde resources.
+		- Tactieken: optimaliseren van herhaalde processen, distributie van processen, het minimaliseren van gedeelde resources.
 		- Toepassen: Analyseer de data en maak prestatiemodellen, leg bottlenecks vast.
 	- __Security__
 		- Concerns: authenticatie, authorisatie, integriteit, beschikbaarheid etc.
@@ -271,7 +271,7 @@
 - Welke perspectives zijn relevant?
 - Voorbeelden (security):
 	- Het identificeren van gevoelig liggende resources (bijv gebruikersdata in de database)
-	- Het identificeren van beveiliginsrisico's (diefstal van backups etc.)
+	- Het identificeren van beveiligingsrisico's (diefstal van backups etc.)
 	- Een veiligheidsbeleid opstellen (backups, wat doen we bij chantage of netwerk aanvallen? etc.)
 
 ### Tactieken en patterns
@@ -355,7 +355,7 @@
 	- __System testing__: System Test Plans (STPs) zijn opgezet tijdens de System Design fase. Worden uitgevoerd door business team van de klant. (black-box)
 		- Testen van user requirements: controleren of het systeem voldoet aan de functionele en niet-functionele eisen.
 		- Testen van system requirements: controleren door middel van stresstesten, regressietesten etc.
-	- __User Acceptance testing__: User Acceptance Test Plans (UATPs) zijn opgezet tijdens de Requirements Analysis fase. Test pannen worden uitgevoerd door business users (eindgebruikers?), om zo met 'real-time data' te werken. Hiermee wordt verzekerd dat het systeem werkt conform de user requirements en klaar is voor gebruik. (black-box)
+	- __User Acceptance testing__: User Acceptance Test Plans (UATPs) zijn opgezet tijdens de Requirements Analysis fase. Test plannen worden uitgevoerd door business users (eindgebruikers?), om zo met 'real-time data' te werken. Hiermee wordt verzekerd dat het systeem werkt conform de user requirements en klaar is voor gebruik. (black-box)
 
 ### Happy flow/path
 - Uitvoeren (standaard) scenario, waarbij dingen gaan zoals gepland
